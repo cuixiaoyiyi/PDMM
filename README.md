@@ -37,6 +37,28 @@ This tool is the implementation of the paper:
 Clone the repository and build with Maven:
 
 ```bash
-git clone https://github.com/cuixiaoyiyi/PDMM.git
+git clone https://github.com/****/PDMM.git
 cd PDMM
 mvn clean package
+
+### API Invocation   
+
+```
+	
+	DDMSootConfig.ANDROID_PLATFORM_PATH = $androidPlatformPath$;
+	DDMSootConfig.ApkPath = $apkPath$;
+	DDMSootConfig.output = $outputPath$;
+	
+	//set output format 
+	
+	DDMSootConfig.sootInitialization();
+	
+	Set<SootClass> sootClasses = new HashSet<SootClass>(Scene.v().getApplicationClasses());
+	for (SootClass sootClass : sootClasses) {
+    SootMethod sootMethod = DMMFactory.createDDM(sootClass);
+    DMMPPOptimizer  optimizer = new DMMPPOptimizer();
+		sootMethod = optimizer.synthesizeDummyMain(sootClass);
+		// do your task
+	}
+	 
+```
