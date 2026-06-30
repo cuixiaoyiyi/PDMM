@@ -2,13 +2,27 @@
 
 PDMM is a static analysis tool that constructs precise dummy main methods for Android applications. It addresses two key limitations in existing approaches: **parameter bloat** and **imprecise Activity-Fragment lifecycle modeling**. By generating a more accurate synthetic entry point, PreciseDMM significantly improves the scalability and precision of downstream static analyses such as taint tracking.
 
-Implementation and measurements for *"Lightweight and Lifecycle-Synchronized Dummy Main Construction for Android Static Analysis"*, built on top of **DMMPP**
+Implementation and measurements for *"Lightweight and Lifecycle-Synchronized Dummy Main Construction for Android Static Analysis"*, built on top of [**DMMPP**](https://github.com/cuixiaoyiyi/DMMPP)
 (Cui et al., ISSTA 2024) and the FlowDroid/Soot stack.
 
 ### Datasets (real)
 - [**DroidBench 3.0**](https://github.com/secure-software-engineering/DroidBench/tree/master/apk) — 188 APKs (all categories), incl. `FragmentLifecycle1/2`.
 - **Real-world** — the 20 APKs shipped with DMMPP: [10 F-Droid + 10 Google Play](https://github.com/cuixiaoyiyi/DMMPP/tree/main/apks).
 - **Android platforms** — `android.jar` API 25/29/30.
+
+## Content 
+- results: raw experimental data
+- scripts: experimental driver scripts
+- src: open source
+
+## Use 
+```
+Main Entry 
+cn.ac.ios.pdmm.PDMMMain.java
+-arg[0] : platforms:   .../$platforms_ath$/android.jar
+-arg[1] : apk:   .../$platforms_path$/name.apk
+-arg[2] : output Directory‌:   .../$outDir_path$/  
+```
 
 ## Requirements
 
