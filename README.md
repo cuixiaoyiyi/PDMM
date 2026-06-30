@@ -2,26 +2,13 @@
 
 PDMM is a static analysis tool that constructs precise dummy main methods for Android applications. It addresses two key limitations in existing approaches: **parameter bloat** and **imprecise Activity-Fragment lifecycle modeling**. By generating a more accurate synthetic entry point, PreciseDMM significantly improves the scalability and precision of downstream static analyses such as taint tracking.
 
-This tool is the implementation of the paper:  
-*"Constructing Precise Dummy Main Methods for Android via Hierarchical Lifecycle Modeling"* (to appear).
+Implementation and measurements for *"Lightweight and Lifecycle-Synchronized Dummy Main Construction for Android Static Analysis"*, built on top of **DMMPP**
+(Cui et al., ISSTA 2024) and the FlowDroid/Soot stack.
 
----
-
-## Features
-
-- **Alias-Aware Parameter Reduction**  
-  Merges redundant callback parameters (e.g., `Bundle`, `Intent`, `View`) using type-based equivalence partitioning, reducing the number of formal parameters in the dummy main method by up to 65%.
-
-- **Hierarchical State Machine (HSM) for Lifecycles**  
-  Models Activity‑Fragment interactions with path‑sensitive predicates, ensuring that only valid callback sequences are included. This eliminates infeasible paths caused by asynchronous transactions (`commit` vs. `commitNow`).
-
-- **Seamless Integration with FlowDroid**  
-  The generated dummy main method can be directly used as input to FlowDroid’s taint analysis engine, improving both performance (time, memory) and precision (F1‑score).
-
-- **Lightweight Pre‑processing**  
-  The dummy main construction adds less than 1.5% overhead to the total analysis time, even for large apps (e.g., Telegram).
-
----
+### Datasets (real)
+- **DroidBench 3.0** — 188 APKs (all categories), incl. `FragmentLifecycle1/2`.
+- **Real-world** — the 20 APKs shipped with DMMPP: 10 F-Droid + 10 Google Play.
+- **Android platforms** — `android.jar` API 25/29/30.
 
 ## Requirements
 
@@ -30,35 +17,3 @@ This tool is the implementation of the paper:
 - [FlowDroid](https://github.com/secure-software-engineering/FlowDroid) (optional, for downstream analysis)
 - Apache Maven (for building)
 
----
-
-## Installation
-
-Clone the repository and build with Maven:
-
-```bash
-git clone https://github.com/****/PDMM.git
-cd PDMM
-mvn clean package
-
-### API Invocation   
-
-```
-	
-	DDMSootConfig.ANDROID_PLATFORM_PATH = $androidPlatformPath$;
-	DDMSootConfig.ApkPath = $apkPath$;
-	DDMSootConfig.output = $outputPath$;
-	
-	//set output format 
-	
-	DDMSootConfig.sootInitialization();
-	
-	Set<SootClass> sootClasses = new HashSet<SootClass>(Scene.v().getApplicationClasses());
-	for (SootClass sootClass : sootClasses) {
-    SootMethod sootMethod = DMMFactory.createDDM(sootClass);
-    DMMPPOptimizer  optimizer = new DMMPPOptimizer();
-		sootMethod = optimizer.synthesizeDummyMain(sootClass);
-		// do your task
-	}
-	 
-```
