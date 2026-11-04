@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-04",
+  "saved_data_recomputation": {
+    "status": "pass",
+    "checks": 9087,
+    "failures": []
+  },
+  "compiled_class_counts": {
+    "gen8": 26,
+    "taint": 31,
+    "gen8_probe": 4,
+    "cost_probe": 4
+  },
+  "export_validation": {
+    "fixture_only": true,
+    "Java_or_APK_runs": 0,
+    "status": "ok",
+    "checks": [
+      "measured exporter source is byte-identical to original reviewed transform",
+      "changed source layout rejected instead of guessed",
+      "nonempty and input-overlapping outputs refused",
+      "missing, wrong-count and duplicate APK collections refused",
+      "success, validation failure, process failure and timeout persist terminal receipts/resources"
+    ]
+  },
+  "cost_validation": {
+    "fixture_only": true,
+    "Java_or_APK_runs": 0,
+    "status": "ok",
+    "checks": [
+      "Androlic measured source byte-identical to original reviewed transform",
+      "GC validation function structurally identical to original pure reader",
+      "deterministic seed20260930 schedule contains all five configurations x five repetitions",
+      "serial fixture schedule persists timeout, SOLVEFAIL, malformed GC and launch failures",
+      "only five successful repetitions yield medians; missing GC data stays null"
+    ],
+    "fixture_instances": 25,
+    "maximum_fixture_process_concurrency": 1
+  },
+  "build_scope": "Source compilation and software validation fixtures; scientific application campaigns were not rerun"
+}

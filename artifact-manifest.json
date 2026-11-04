@@ -1,0 +1,2130 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 68,
+      "sha256": "21f1bf5d7a3671de8de746f45f8a941bc565fd12b56e47034a4378571814e281"
+    },
+    {
+      "path": ".gitignore",
+      "size": 154,
+      "sha256": "fde28a782c5af45a1a7b95f7974bf9807958a13ee6d8a7fa7575e56086ad08f3"
+    },
+    {
+      "path": "NOTICE.md",
+      "size": 1096,
+      "sha256": "cd4dcc89990edb9f64b8d1cabad39e00d0b757103bd2b0ae6a0c21a0951863e5"
+    },
+    {
+      "path": "README.md",
+      "size": 3380,
+      "sha256": "7b051ec63bf4909dce94288a653de31d4b79b1e262f6997946bceda8a1abf6a4"
+    },
+    {
+      "path": "benchmarks/fragbench/original/analyze_dyn.py",
+      "size": 8683,
+      "sha256": "310373ad612ef8281982372c792fca41a8c8b84a22113637693215718a17821a"
+    },
+    {
+      "path": "benchmarks/fragbench/original/gen.py",
+      "size": 16762,
+      "sha256": "84e65b96d8fe7f14bb416a2ad85472229f77ce04653d6ff0ee6fb4b3c01b92b0"
+    },
+    {
+      "path": "benchmarks/fragbench/original/run_dynamic.py",
+      "size": 27976,
+      "sha256": "69122d6a43ddd26b1b457da267fd943fad74b430390da838433f8253fa022fd4"
+    },
+    {
+      "path": "benchmarks/fragbench/original/trace_evidence.py",
+      "size": 22266,
+      "sha256": "3e3ebd685eacedbc3518aa64b1ebc5805f44aca15eae03883057a1afa5e2a4e7"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a1/build.gradle",
+      "size": 500,
+      "sha256": "9aca6751a8f97f806731c117840ce0760bdaa21b8a8f20eb1400d50b66abc0eb"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a1/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "0bc9b95cc8e1ca43026a50f7ef4269b73580918f4de2cbc4334d1d4575900945"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a1/src/main/java/fbx/a1/C.java",
+      "size": 3542,
+      "sha256": "bc45adf4eda6a0a539aedcacbb852d025251f268170fc0d129efafd80f777be9"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a1/src/main/java/fbx/a1/F.java",
+      "size": 3616,
+      "sha256": "054c33898c65ff8ad6efccf3cf598300da2fd27dd663c286f03e2bdde25eb459"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a1/src/main/java/fbx/a1/G.java",
+      "size": 3542,
+      "sha256": "e0e357821c5ffd63786c80e8b0334c2ddbcee1ce815c4b47701782b8ded16f3a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a1/src/main/java/fbx/a1/MainActivity.java",
+      "size": 3513,
+      "sha256": "89a214594bed5b0ac68e3b112eebe68cdf78c722b66eea1282617bae76a72e3a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a1/src/main/java/fbx/a1/T.java",
+      "size": 1343,
+      "sha256": "f5da4d5af3cfd9079fc4a511410b30b430cdc818cb92140902f850823aab00b6"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a1/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a2/build.gradle",
+      "size": 500,
+      "sha256": "7e1b86020bec6bdcd3e24c9bfbf60fb6fdc180415b5af90dd323f82df21d98a8"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a2/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "34644ad1e1dec150a72f493e5e01fdded1535c014979c46e6b9a273461ed134c"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a2/src/main/java/fbx/a2/C.java",
+      "size": 3542,
+      "sha256": "1ff823510e2e8e78d17c4316305d59476a4432de28ad7bcd266549048a8e1d5c"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a2/src/main/java/fbx/a2/F.java",
+      "size": 3616,
+      "sha256": "8563114f63c70d862133e445fca6d13a10e20f6011e8980427a92ee14735fbda"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a2/src/main/java/fbx/a2/G.java",
+      "size": 3542,
+      "sha256": "0b50ee07d6bd93a29c180539fc4167b0cf40e1066207a4cfdde065c57ec43903"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a2/src/main/java/fbx/a2/MainActivity.java",
+      "size": 3513,
+      "sha256": "b2ba735c1b3fd1ff615420c019b7b50e6c572ff900b55d7e33ba285304e22b51"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a2/src/main/java/fbx/a2/T.java",
+      "size": 1343,
+      "sha256": "5c4aaab2b640cd15c34d9551f24eaf1f8669d08c25291f57d4fd48b18764fa45"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a2/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a3/build.gradle",
+      "size": 500,
+      "sha256": "eae12d0503deaf3d79a704340ed6f08a5463e82bfcc99e9fe810cce67afadb47"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a3/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "0815b2b77df8885a374b3792b0fe87acd21e64f3bd3ebc937cff556dae8e4800"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a3/src/main/java/fbx/a3/C.java",
+      "size": 3542,
+      "sha256": "b70c688ccdb923b367b66cb19ac3c422eff73eaec27450d8767541a3e5016cdf"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a3/src/main/java/fbx/a3/F.java",
+      "size": 3616,
+      "sha256": "f080365b37fa83032da93fc3f7d29763f0d47c18c499249a39ba55785fb5b898"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a3/src/main/java/fbx/a3/G.java",
+      "size": 3542,
+      "sha256": "723ed65276b0ed13ecdea41a2e00607f12221e854dbeebec5e9286a2b6ab5983"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a3/src/main/java/fbx/a3/MainActivity.java",
+      "size": 3534,
+      "sha256": "254bae89d3bbf2406a770efb9a32e6108d082debc30ee61be7f7c9134669c76d"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a3/src/main/java/fbx/a3/T.java",
+      "size": 1343,
+      "sha256": "6822553c834190fa174c547ac2eea6e7309f97500a77c681ef3d9cf1ff12364c"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a3/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a4/build.gradle",
+      "size": 500,
+      "sha256": "6013e959297cba96ea1ff06e88e2d79d7b11a6d83e5de0416a08d0b49dd0e497"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a4/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "06c8aff5fa56fb0683bf0297407565d66d34bfc64acc627c2c208d4412595308"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a4/src/main/java/fbx/a4/C.java",
+      "size": 3542,
+      "sha256": "f7672ec842dda9dc54b934c2c75616a1374c209d148a45f4552b26bc5057a788"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a4/src/main/java/fbx/a4/F.java",
+      "size": 3616,
+      "sha256": "bd2e4d8cc02d67a927e4c4b64bac883aa76425b580d4b83e06f6da27a1d59cf2"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a4/src/main/java/fbx/a4/G.java",
+      "size": 3542,
+      "sha256": "5e503585b4186604875e2511d7cda2566a34346f2d4c77040f8f2e9ad0b76a23"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a4/src/main/java/fbx/a4/MainActivity.java",
+      "size": 3513,
+      "sha256": "97e316411585d6c44bda2ede199b0813144e70c3a7e113bed1a9adbcb50e55d7"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a4/src/main/java/fbx/a4/T.java",
+      "size": 1343,
+      "sha256": "34945187df76be494b677b05319386bb5dd70916fdbe06386cd1bbb286b322b0"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a4/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a5/build.gradle",
+      "size": 500,
+      "sha256": "376ddb2e531a5eac68078675ae0a4849d5ba0299af16a3bd1cdb3646bc5c43c0"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a5/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "5919bcac200da9de262191d45781c622029010cef94ce8e21368395c134d4f02"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a5/src/main/java/fbx/a5/C.java",
+      "size": 3542,
+      "sha256": "815613f9949dd2bd8266ef95b8d525f6f11dd7606e676528836acd907d24c97a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a5/src/main/java/fbx/a5/F.java",
+      "size": 3616,
+      "sha256": "b81e46a7c3c3d4b0a2e81830a0b27b212bbbba679170ab353e530e5afd49bfa6"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a5/src/main/java/fbx/a5/G.java",
+      "size": 3542,
+      "sha256": "2183d343e7eab3c836cb8fc9cc5bf70a714ca7e23bd1a636d3d2ee507d983bd5"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a5/src/main/java/fbx/a5/MainActivity.java",
+      "size": 3513,
+      "sha256": "518dd09c282fcefc9811ec22eab9f962e560e3f6e9ca3730bd45a9249de06a6f"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a5/src/main/java/fbx/a5/T.java",
+      "size": 1343,
+      "sha256": "34f2459f4b1dd488fc0f5bf4d0c2d282a2f8096483935f967cb18d6c09c4ebee"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a5/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a6/build.gradle",
+      "size": 500,
+      "sha256": "7b3a09f493baf77dd8dea778420b1a2ebabab6d9651692cc21996b3d48b6f58c"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a6/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "710e86356e529852d5461a706d5d0524895dcacd9ad26e8de6c3559b3743b8bb"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a6/src/main/java/fbx/a6/C.java",
+      "size": 3542,
+      "sha256": "762704bc60cd639c069398bcff9847d381e201253b26430bfecb444716aded13"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a6/src/main/java/fbx/a6/F.java",
+      "size": 3612,
+      "sha256": "15062d446baf55b07e9c3096ad36a45bc31ee6099cfa178e37305244c270816c"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a6/src/main/java/fbx/a6/G.java",
+      "size": 3542,
+      "sha256": "fa1f9d655baa46833db4c5aa8ffe3b35faaa07ba24819106c67666d7c9808a4a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a6/src/main/java/fbx/a6/MainActivity.java",
+      "size": 3526,
+      "sha256": "3d2e90df13f290fc2f5bbef3ccd751052f584a5d863a53bf4313bb90eb499721"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a6/src/main/java/fbx/a6/T.java",
+      "size": 1343,
+      "sha256": "3ea62750ebce336c725f47e08119d1e92be648b4289d1245d02ccf89cbe7e9de"
+    },
+    {
+      "path": "benchmarks/fragbench/project/a6/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b1/build.gradle",
+      "size": 500,
+      "sha256": "998b876ff560583e371a47b4327175d25f6cb171c02807156378fcae16944f24"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b1/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "0de17fd7c895dc102eb9d8ffcce2cb71216c54dd92d718c7a12dabbaae1a9c36"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b1/src/main/java/fbx/b1/C.java",
+      "size": 3542,
+      "sha256": "ef33c719b41b77023de39a931a0c52f07599f2ea44c2986276a2c2972709295e"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b1/src/main/java/fbx/b1/F.java",
+      "size": 3583,
+      "sha256": "5aa9710be22d98d438b2f8e2ae43a6f857d8162614c876cfe5bbcdbb83230400"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b1/src/main/java/fbx/b1/G.java",
+      "size": 3542,
+      "sha256": "17363369994df81e84d64a6b1b87dfd0c6b1a1150e570bf6c1299e11c7cd3d0c"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b1/src/main/java/fbx/b1/MainActivity.java",
+      "size": 3505,
+      "sha256": "6f143b04ef5109319abe6f8ca54e6c51601bb3c36c7a5041ea12bd9db0724d1c"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b1/src/main/java/fbx/b1/T.java",
+      "size": 1343,
+      "sha256": "6828ae554f37fc156e3b3044219483806ee5f35ddae652c45e3e05ea76e53e06"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b1/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b2/build.gradle",
+      "size": 500,
+      "sha256": "bef27a70d0f6312ee5c2a84224e402d294f8a43d7f9e99082047aa733a870614"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b2/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "2db57c2c243516398cf4618001a43ea802ee30463c257d2795f4d9709ed4f4b6"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b2/src/main/java/fbx/b2/C.java",
+      "size": 3542,
+      "sha256": "67fe183a8b0c1d3786892e369eeb70aab90a7a698e1d35a7ec5a5278e3643828"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b2/src/main/java/fbx/b2/F.java",
+      "size": 3608,
+      "sha256": "8617e6941163f250edb099c1168fa257e2837c024a9a71b8e01563e1ed8458ef"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b2/src/main/java/fbx/b2/G.java",
+      "size": 3542,
+      "sha256": "414254402141c02585d62e6c8e6077fde7e2f746d07a65b967217c80ca0c1d81"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b2/src/main/java/fbx/b2/MainActivity.java",
+      "size": 3583,
+      "sha256": "4c33adf42cf022e4c898b03d8146b6ed654a3d55d008bf425237e18a8bbbca7d"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b2/src/main/java/fbx/b2/T.java",
+      "size": 1343,
+      "sha256": "54bed67890ff70694a6eb819d3c208834b604c48140755f29101200bae00bb47"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b2/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b3/build.gradle",
+      "size": 500,
+      "sha256": "e39f9989b92e3897f12a5667d1f3558e9f32987ad36ab076d4d1059c83bd5b92"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b3/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "9437d5b711e090afa85224d30e2f22651c1f177ef71a8f8df2630bc394c778a9"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b3/src/main/java/fbx/b3/C.java",
+      "size": 3542,
+      "sha256": "8d95366372c551e561c8a2388b0fa11593de258a13b26bf0fd6272fa7ae645d6"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b3/src/main/java/fbx/b3/F.java",
+      "size": 3583,
+      "sha256": "dad978dc1b13d43dcfa4ea4bef311c6e12b942d27b97fa778741151d552eb664"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b3/src/main/java/fbx/b3/G.java",
+      "size": 3542,
+      "sha256": "be41eaec96f42ca49ffbd4e5067a32d40c6cdfe361eedd4921c25bb9793af43a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b3/src/main/java/fbx/b3/MainActivity.java",
+      "size": 3546,
+      "sha256": "53de1ff1073279d62c37fe286a1cd6aa7571aa586edb123d21d5e131b9c795e0"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b3/src/main/java/fbx/b3/T.java",
+      "size": 1343,
+      "sha256": "1fb38e47ed494cca62688651aa3ef792c7206c07f10940a1cc4a9ffaa4f429d5"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b3/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b4/build.gradle",
+      "size": 500,
+      "sha256": "b92559e9d0d7985570dafd182e0150ed0f30d5a19c8767bb26d455dfd2ddf88c"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b4/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "97a828f786b32279f101cef2ca928ad97435e48f6d671ca19427cc56058a270e"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b4/src/main/java/fbx/b4/C.java",
+      "size": 3542,
+      "sha256": "4880186bf4942070cf9d65fa04775a95f82ee056e98f84749a6df97e4a18bb0a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b4/src/main/java/fbx/b4/F.java",
+      "size": 3579,
+      "sha256": "8e49de59e8fe1725fbc94dc55425f7cc2f29e88ba200c01c2cd820e8d8bc43cb"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b4/src/main/java/fbx/b4/G.java",
+      "size": 3542,
+      "sha256": "8292455dc8413f08a20c402f9ddc0bf5bd4d3d8a6a36bda63f28649c00184ab5"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b4/src/main/java/fbx/b4/MainActivity.java",
+      "size": 3534,
+      "sha256": "8c8f2e708c4903c040d0fe5c8484e24b6d2cf2bbc72d2ea9c40e62663c7e3b9e"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b4/src/main/java/fbx/b4/T.java",
+      "size": 1343,
+      "sha256": "086d4bde478162a1c7a66e4a7ab7696dd15dc026b04e2d8c1c26bd1b70eb563a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/b4/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/build.gradle",
+      "size": 69,
+      "sha256": "d88e3630cd86959d038aa1fd086ed55343a57a20d789d772722dd18df08e9c98"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c1/build.gradle",
+      "size": 500,
+      "sha256": "45d0ebce021146d71322fed1f76d31027f88c030832aafd37fb44226227e9e8f"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c1/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "8e450d3fbabcbc2765fe7aedb1ea8fa8226bc1bfd61d6d3c05c97c6e1e41a84d"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c1/src/main/java/fbx/c1/C.java",
+      "size": 3542,
+      "sha256": "29aa67fb121cf87dc8b3d1719bb3174c530000d630e44131ad69d92b81640c09"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c1/src/main/java/fbx/c1/F.java",
+      "size": 3579,
+      "sha256": "3b4d0b9c8cc482d66be1f3fac3adb3ff15d0784b5211d2851679fd93abe16592"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c1/src/main/java/fbx/c1/G.java",
+      "size": 3542,
+      "sha256": "345c6d49d6d8da750c9965b49ad7c1dfe2ee80a1da6232c2a1d7b59ca40649fe"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c1/src/main/java/fbx/c1/MainActivity.java",
+      "size": 3521,
+      "sha256": "7da19a20f33bb667bdb684ea1aa7dfc3775db3f2e8d7e5c91b79058d96c01ad9"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c1/src/main/java/fbx/c1/T.java",
+      "size": 1343,
+      "sha256": "fb6d253343c5c266c6f3aeb47639be1e3da06e7a5b0627febb116c909a3a0f02"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c1/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c2/build.gradle",
+      "size": 500,
+      "sha256": "c3fa8fcb5192212d9597526f0fa230aa8fc21a8318f2f12bbec634a51017f174"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c2/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "32cbb3466728dca5730932c5c5a0b36f3881639bbbc0d5f1b265eced7f21c498"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c2/src/main/java/fbx/c2/C.java",
+      "size": 3542,
+      "sha256": "0da39c04220d857fdce3f8685eb589c07add7dc326802a5f1464ea3f46c50f58"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c2/src/main/java/fbx/c2/F.java",
+      "size": 3579,
+      "sha256": "e04df96a187cd26381680e12a71958f550906856940b6abc0285e47fde6f9bc3"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c2/src/main/java/fbx/c2/G.java",
+      "size": 3542,
+      "sha256": "ddd63e902f8ac4883a2e282841933c69ca0d18a0c1eb4fae0b743a8706ebada8"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c2/src/main/java/fbx/c2/MainActivity.java",
+      "size": 3518,
+      "sha256": "63018490a746c8733de6796f31cd1f9fd393b9aaba0f2b8d9510b64e448a2c58"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c2/src/main/java/fbx/c2/T.java",
+      "size": 1343,
+      "sha256": "d4024a520f89fb7beb72a4857906b33c9d297ba88c46d02ce49225174cb25fdc"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c2/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c3/build.gradle",
+      "size": 500,
+      "sha256": "dc84fe499af50d20019b9f27fbbc4a3f1ae639a17d138dffac3128b3ea9a5e44"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c3/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "6e0df8ca61c4e81cd3e1eca1d20ea347841b607e5f92c7024bd77b6f76e69ae7"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c3/src/main/java/fbx/c3/C.java",
+      "size": 3542,
+      "sha256": "e9fcb9473de2fadc6cae5879205ff8c2ad66d3fff10b13383b263ce101c0701b"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c3/src/main/java/fbx/c3/F.java",
+      "size": 3542,
+      "sha256": "5e2a661c4e0cfe55df46e34347902e1c72047d536d75606be739d8a0dc0d6f8a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c3/src/main/java/fbx/c3/G.java",
+      "size": 3579,
+      "sha256": "00d8c407ddf8b75d4aef0392f14fc526f610c47ec00bad64a4ce599a946c1713"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c3/src/main/java/fbx/c3/MainActivity.java",
+      "size": 3535,
+      "sha256": "ca7c345fc03276a7c9ff111c82bc61ab56d3ed62c4adbe3d2f19a111f95eacd1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c3/src/main/java/fbx/c3/T.java",
+      "size": 1343,
+      "sha256": "2ccba5ef611c3e956a8e473d5bed8adedc3f490a9cd86d95bc493fe82ecd6d60"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c3/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c4/build.gradle",
+      "size": 500,
+      "sha256": "cda43fa1a5b18172a0f2a1c73d7c06e254f2f25ea634d457d47ce0ed543c3e97"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c4/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "40db5d6ad27dfd593bb850cdd58ae03d05e86949a6df83267fcc9d43e67fd765"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c4/src/main/java/fbx/c4/C.java",
+      "size": 3542,
+      "sha256": "3fb1499e97e4d2a05ec7e37320e473e478d484bfa7be162182c274ce1c8dd349"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c4/src/main/java/fbx/c4/F.java",
+      "size": 3542,
+      "sha256": "4b585c0bcea6799d840aa8970d27dd506e925e1980fc6c4a782d785a354c48f9"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c4/src/main/java/fbx/c4/G.java",
+      "size": 3579,
+      "sha256": "19c0795484f2234286072dc4ecb51e9a83b924f06b588cd2a4ae4191301ab5ee"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c4/src/main/java/fbx/c4/MainActivity.java",
+      "size": 3532,
+      "sha256": "a891a8712d6b5cf4dab440f2241c1ca749e77f3e29fd8f5b7cef70ebaae4bff1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c4/src/main/java/fbx/c4/T.java",
+      "size": 1343,
+      "sha256": "c4715ae99a55150e9b34f513552f84c113eb27f8e0fdf4590919a20f1e0c0f6a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c4/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c5/build.gradle",
+      "size": 500,
+      "sha256": "c58b0e4e220db250c1198a4c818e801e46714ffb079ce8c8173fe1782e2a16ce"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c5/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "e252e8038fc91ccd288fd4e4f8920879c415c7b4fc306ee57376f882a6053e2e"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c5/src/main/java/fbx/c5/C.java",
+      "size": 3542,
+      "sha256": "e718f59c9922489f140b5c57d3f272acb1c4305be31200c8423c8c16d96a4185"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c5/src/main/java/fbx/c5/F.java",
+      "size": 3579,
+      "sha256": "bec613abbce754d803a0bed5c127879e49d4ecc03352b79708018284274ebadf"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c5/src/main/java/fbx/c5/G.java",
+      "size": 3542,
+      "sha256": "f8a11bf1e5d13b240dfecdbda21a75f8cb0d3077a988598a88bd12a2170f3a36"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c5/src/main/java/fbx/c5/MainActivity.java",
+      "size": 3576,
+      "sha256": "4647a359abf8e58f3edb434b93e04eaca013b588878482f7b4184cecf29b8ab3"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c5/src/main/java/fbx/c5/T.java",
+      "size": 1343,
+      "sha256": "0203dc4a5c828827727ce715dfd10193fb14b4962d68c0314b8c876110026dc7"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c5/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c6/build.gradle",
+      "size": 500,
+      "sha256": "dd2a9aa7059d68a63d1c0cf092d38d9e5a4f907e9dd1bc8d51e74b543489c03b"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c6/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "6908d48ba1303c641aeb69778fb0ea1fb884d2b1a3e3b1f211f58f9bb2bdb392"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c6/src/main/java/fbx/c6/C.java",
+      "size": 3542,
+      "sha256": "551904e5a1b1263482a5129d6a43269872bdf164f84982c3624f164631b38d51"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c6/src/main/java/fbx/c6/F.java",
+      "size": 3542,
+      "sha256": "827d4c27a961b73bf48b0a878e245d5ea8dabf813ce4af5e8202794773a43184"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c6/src/main/java/fbx/c6/G.java",
+      "size": 3593,
+      "sha256": "0b17d2159f5efdb4b103927a37bc6b267f533e64b73780baaf73125c8b3cb42b"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c6/src/main/java/fbx/c6/MainActivity.java",
+      "size": 3515,
+      "sha256": "1b9f0e222035a3f46e5a2153b27b7f5acfbff2c236801f78a12bfbd0fd47cc0e"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c6/src/main/java/fbx/c6/T.java",
+      "size": 1343,
+      "sha256": "665dba21a42a5ee0da1546d7d2c69fd58232cea764d5bfe8f45f7aa8d8d2c282"
+    },
+    {
+      "path": "benchmarks/fragbench/project/c6/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/cases.csv",
+      "size": 3301,
+      "sha256": "48b16d9b813cbd9d0cd485368289d7692e1309b4ca19a645d1a1d82e2246fa8b"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d1/build.gradle",
+      "size": 500,
+      "sha256": "fabff3e63275386c967ed58871e0d4da6c964604432df7888a2577bf22f40015"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d1/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "7273ee3d72c601eb1574c79de7ab5bbae85595b0566b5f956e32911f49176137"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d1/src/main/java/fbx/d1/C.java",
+      "size": 3542,
+      "sha256": "c8f4c41717769ff356ce18edfda877786aa7eb5925a5c4180e36071e0e7f9473"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d1/src/main/java/fbx/d1/F.java",
+      "size": 3571,
+      "sha256": "3e76716262ccf0c42920a0c0125bc97c0574d970d8b83b0f3815fb6d5fcbb8e1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d1/src/main/java/fbx/d1/G.java",
+      "size": 3542,
+      "sha256": "8823327c917f37256ebde49031e1f2d54c56f7c05ee6d6c0c7eaec21b3b1c981"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d1/src/main/java/fbx/d1/MainActivity.java",
+      "size": 3546,
+      "sha256": "7e532ccfb35a676ce03db155e5ecd306154b9ce7047450e30cb249dda1f5d994"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d1/src/main/java/fbx/d1/T.java",
+      "size": 1343,
+      "sha256": "1a859f665d1d9cc3e387a2f9660ccc4c147a945281d537b7d5e3b6bca31f1b9f"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d1/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d2/build.gradle",
+      "size": 500,
+      "sha256": "053e91af0709f73090f25ef937e066a441a13a813a413aafea1b8a5ca0d98928"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d2/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "6f32b63f7f06e187ddd96b568c6f6ca0395540816c18b215ff35c449b432ac88"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d2/src/main/java/fbx/d2/C.java",
+      "size": 3542,
+      "sha256": "bab37c1665f9d121d4662ebc90f5a8ac934d9a03a8d2c32acce9f4e726038dd8"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d2/src/main/java/fbx/d2/F.java",
+      "size": 3571,
+      "sha256": "60bb33bc4dc044dfb013d7c8c9ec207927e5e8ae210eeacae1db471cbe9d7cee"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d2/src/main/java/fbx/d2/G.java",
+      "size": 3542,
+      "sha256": "0b2e1f574d577345250e07489d1f517c8c67639482735d2fe550897a8cb0c9aa"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d2/src/main/java/fbx/d2/MainActivity.java",
+      "size": 3546,
+      "sha256": "ff0ab0f1ebdcd82cc88fa61738912f9f419be64688249519cf50a97b660f2e3f"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d2/src/main/java/fbx/d2/T.java",
+      "size": 1343,
+      "sha256": "b5d6531fce234ebc519cf679d842983e0f05a2b3ae7e265449548e05f7698c0a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d2/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d3/build.gradle",
+      "size": 500,
+      "sha256": "71526cb4603487ed7de4452efa6db1892ff6f6ef3e80e0ec8d243579cf750b9a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d3/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "730832c7e6887b4a51c91ce09be23cb4f56d4989a7c239683def2e4415f1cc60"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d3/src/main/java/fbx/d3/C.java",
+      "size": 3542,
+      "sha256": "e1f1fbaf6712e59f9b1caa73ce4c7bed101123f2372271d7d7d6e6180b00b0de"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d3/src/main/java/fbx/d3/F.java",
+      "size": 3640,
+      "sha256": "01f17ab545a0e123793e8615db27927cbbd1c452a71887cf747d5c732846284f"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d3/src/main/java/fbx/d3/G.java",
+      "size": 3542,
+      "sha256": "2e1cb7f4a21bb571870701679e8b601184bb00d50d4fcffc7cd93026cfabfc61"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d3/src/main/java/fbx/d3/MainActivity.java",
+      "size": 3499,
+      "sha256": "e756c131091c292a7bf1c87fc15ed95af75c39359a348a19800c312e8188610c"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d3/src/main/java/fbx/d3/T.java",
+      "size": 1343,
+      "sha256": "c9a79536258cbb159eb8366d9e22af7ad5c0aabe938b0f6340d1601f5cf0ba4f"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d3/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d4/build.gradle",
+      "size": 500,
+      "sha256": "f289a437654643ffaed5ab1235d0c1d58eba7441011794ea4fe56eae79b3bfe8"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d4/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "38064ac513a31baf0264a3b53ff8baae0eb687f1616d6a7ad217ec38d45483c1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d4/src/main/java/fbx/d4/C.java",
+      "size": 3542,
+      "sha256": "f1870dc756a1d41bd274ab30cc238948488ab050b811e109c20184a295e90e96"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d4/src/main/java/fbx/d4/F.java",
+      "size": 3640,
+      "sha256": "b7300ad37d790175ff2b95ed6564bf242a3920da00f104b6f099be4351e4e1c4"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d4/src/main/java/fbx/d4/G.java",
+      "size": 3542,
+      "sha256": "a7f4e9e9f1048c35f891d307e3ce366149b47c2aff3fffba6c59c2ec9c2e0ce3"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d4/src/main/java/fbx/d4/MainActivity.java",
+      "size": 3491,
+      "sha256": "82b7567574832a131c4db5a431d6f0e53e2436a5626134e5689595a4b1404629"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d4/src/main/java/fbx/d4/T.java",
+      "size": 1343,
+      "sha256": "907dd4d0b8c5955c6f11e3988447c0b04b8004ef9edaf852fcbe3db833835307"
+    },
+    {
+      "path": "benchmarks/fragbench/project/d4/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e1/build.gradle",
+      "size": 500,
+      "sha256": "16411abd7f97f84fa4ab34d5cd5d2b5dc3c60f0401295df089e40b5272b98f81"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e1/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "5ef3de75954e1cd57cfdf5714334de317f322bbfd625c5970c0b8b7eee0a5d36"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e1/src/main/java/fbx/e1/C.java",
+      "size": 3542,
+      "sha256": "2802d52d1cd45040d777be540dd0e435285dc2e32ec327fc2af6dbdc688da699"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e1/src/main/java/fbx/e1/F.java",
+      "size": 3593,
+      "sha256": "5e96d81e6b95015c29608aa721188d35d055474b74d5d64b7a3135f8e0ea894b"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e1/src/main/java/fbx/e1/G.java",
+      "size": 3542,
+      "sha256": "845c1a5d43945a13174b73f3717757482a3c545eb463e3546d2aeaed241bdf9a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e1/src/main/java/fbx/e1/MainActivity.java",
+      "size": 3407,
+      "sha256": "ee7060f9d9708d2fe8e83da9aac0718809a48afe1af07fc616f8596b25f042a0"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e1/src/main/java/fbx/e1/T.java",
+      "size": 1343,
+      "sha256": "028f9f7ac24327ab200d206de627bc872207584e5b201c07412e9668adba6e06"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e1/src/main/res/layout/main.xml",
+      "size": 717,
+      "sha256": "8c9352a5e4a97e7c14b715912050bfc2bbe5b854f6e0e6f69a287100894a32d9"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e2/build.gradle",
+      "size": 500,
+      "sha256": "0434dcf2afae7337ebd0ee1eb40081ecf384652a37846ab35bf6507a7c4c2b7f"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e2/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "fc1e826517d8b4454017bc36932c3b57b6c6a918f04e3faa835e6c194b070e5f"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e2/src/main/java/fbx/e2/C.java",
+      "size": 3542,
+      "sha256": "f862a07f9ec953d72bac6d4817bd91088ba8b5322371d8d19c9d1b0fe2614fac"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e2/src/main/java/fbx/e2/F.java",
+      "size": 3542,
+      "sha256": "fe57a6c138d31c6e8e3b2f40c9ef00b0c097074653c0fc094da8bf9d23fddfd2"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e2/src/main/java/fbx/e2/G.java",
+      "size": 3593,
+      "sha256": "3626562984a9e99e6c5bf76d5cb51b93b9fe9704f020a750b20add0ad97f7a36"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e2/src/main/java/fbx/e2/MainActivity.java",
+      "size": 3606,
+      "sha256": "05f7d46097b6cb4ce4dbdf2bafd50dd78b4013cc1c777efebb3d2341a45c4a93"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e2/src/main/java/fbx/e2/T.java",
+      "size": 1343,
+      "sha256": "310fd4a646d688baf22db67d7c38f8afbdc5d0c3416415f6c0db5ed22f6b30a8"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e2/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e3/build.gradle",
+      "size": 500,
+      "sha256": "d9d45b56fea8897eafff299a9b5c9503b0ed064bab7abc1cc9018403c99f6cdc"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e3/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "07615a92a50e01fcc50e6da6cfcc64a4f52057dffbb90c48ed64267edee48c24"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e3/src/main/java/fbx/e3/C.java",
+      "size": 3542,
+      "sha256": "e8f7a4076f35f8d6bdc71a4dd827cfdf0b35c036089fa97ddffb5a75f60a655b"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e3/src/main/java/fbx/e3/F.java",
+      "size": 3593,
+      "sha256": "8eac7a3ce6feb99d99bc67c3234851c74936907df5167906480a81e7f265ed0f"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e3/src/main/java/fbx/e3/G.java",
+      "size": 3542,
+      "sha256": "1e489cb172ae079a31dacf70d15ba3ae989b841947b493d08b334617971c1a81"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e3/src/main/java/fbx/e3/MainActivity.java",
+      "size": 3596,
+      "sha256": "0d9fdacba48299d4bcbd951f0f31f0f2ea705b427e45bb8d12dc2176338c7fbd"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e3/src/main/java/fbx/e3/T.java",
+      "size": 1343,
+      "sha256": "90690433e7bebf571344924f024946d42ef9446115eff7eb122606893b4e14cc"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e3/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e4/build.gradle",
+      "size": 500,
+      "sha256": "68915979bbf80a60b24b92cfe6599f7377eb9f2a5ce1c262b5da348548d78296"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e4/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "561598dfc2534799e1d3141d2314a4984cce3fe6e48c175654507a155f88616d"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e4/src/main/java/fbx/e4/C.java",
+      "size": 3542,
+      "sha256": "90c812f1075844060e6eceb1087eb4bcaf0bcbbe597dfa688a61f5879bbcf415"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e4/src/main/java/fbx/e4/F.java",
+      "size": 3593,
+      "sha256": "542063759d9e89ee38f47f5af4caf5b320c2f00d5336c9301212f6bb122d017f"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e4/src/main/java/fbx/e4/G.java",
+      "size": 3542,
+      "sha256": "38c32fdf8a0d307bd6976b3a782947925fecc14a54e04376dca9f0fa76d79069"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e4/src/main/java/fbx/e4/MainActivity.java",
+      "size": 3640,
+      "sha256": "b656b568dc9269cbb3490846788d653f526cd77ec889c7e087d49b6f9eb64735"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e4/src/main/java/fbx/e4/T.java",
+      "size": 1343,
+      "sha256": "643d6824b9eb85f71d66469ad01dc1086de1fffc8cdb437fc026f1038a3d50dd"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e4/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e5/build.gradle",
+      "size": 500,
+      "sha256": "c719f165c3587406398535a12aaf4dcfb735b4ec0a7afd03002694d2be9f948a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e5/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "29576579b2dcce551b7f0a4770a37dbb3154442ef76fe73ebfd3333c53c93e6a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e5/src/main/java/fbx/e5/C.java",
+      "size": 3593,
+      "sha256": "c5791eff9a4910f4a89b618ed5a0846456e19799655c9af755da104efb0f9e59"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e5/src/main/java/fbx/e5/F.java",
+      "size": 3627,
+      "sha256": "851b6a4ceca4d49c261025e406a33463a47ffabe15440aa9641f71159e78617a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e5/src/main/java/fbx/e5/G.java",
+      "size": 3542,
+      "sha256": "b27aac4f4bb1725a123b673f54cae61b8f9db0010b51999b20cf4f1997fd4663"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e5/src/main/java/fbx/e5/MainActivity.java",
+      "size": 3500,
+      "sha256": "afd1dd07bf8bae4995105ff6833b5e3cc733d8b14d5d3bfe9a2d77470ef0a0d2"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e5/src/main/java/fbx/e5/T.java",
+      "size": 1343,
+      "sha256": "401198d9e283415c5e4c9de5a971cc4fc5e18f98e68ec7bf216ea1df77217ecd"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e5/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e6/build.gradle",
+      "size": 500,
+      "sha256": "34796f09f892c1920ab58f3284690ab0fe726c555c4337d449012897ba1b9c1d"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e6/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "50292a9b26cdccb9f99ad795eb8f3a02e8294e8656a2c7aa117c7048e2ae0285"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e6/src/main/java/fbx/e6/C.java",
+      "size": 3542,
+      "sha256": "b381d17653112111f31a509966b9516ea048fe644ef33503718d760e333970ac"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e6/src/main/java/fbx/e6/F.java",
+      "size": 3593,
+      "sha256": "ea524b0d4add4b858925c000666df7219da21d462b80295c43498dbb7afea163"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e6/src/main/java/fbx/e6/G.java",
+      "size": 3542,
+      "sha256": "c32d739a8060983661d63df5989d5328d85d6be8ce9433472c893ff044a07de5"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e6/src/main/java/fbx/e6/MainActivity.java",
+      "size": 3500,
+      "sha256": "e4b1fb04a4cc1425defe3620c71a6adf35854ba31e52eb731245398444bdbb29"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e6/src/main/java/fbx/e6/T.java",
+      "size": 1343,
+      "sha256": "717215770b94f93de639f5022f29d7a9d32726892946f80c3ccc446b9bd63db2"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e6/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e7/build.gradle",
+      "size": 500,
+      "sha256": "6bcb527ac60207b91abaab64b7303cd02856dbfb784ac5248cdb3251f5f647e7"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e7/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "cbf48d4bf7e53c3248a770d6735109a286d0af5c4001631d3da1c3327e4e61ea"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e7/src/main/java/fbx/e7/C.java",
+      "size": 3542,
+      "sha256": "fc68d13f4f89bc501211e7f08b21de53d4a2be4a398f34928c9bb0aa3311bbff"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e7/src/main/java/fbx/e7/F.java",
+      "size": 3624,
+      "sha256": "229b54c5fc6d1934b58381b6da41a079f16691b52dff6a3b84ae6516721f61e4"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e7/src/main/java/fbx/e7/G.java",
+      "size": 3542,
+      "sha256": "c6de27aee799eb89ec29d93de78e78d8ed91400f3cbc4677e0659b4d1fcfd59d"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e7/src/main/java/fbx/e7/MainActivity.java",
+      "size": 3513,
+      "sha256": "e7ad2680ad34dda1e2948486011c7acf95a8a00dc57085cba4dfe877275f82c2"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e7/src/main/java/fbx/e7/T.java",
+      "size": 1343,
+      "sha256": "480bbd600a3e0633dfdf65a17f222e41c9e1ffbba8b22231728fb00bd6c8e861"
+    },
+    {
+      "path": "benchmarks/fragbench/project/e7/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/gradle.properties",
+      "size": 133,
+      "sha256": "8d1769e6f852d031f6b9430f1508ce081149e0c8efdcdb8aa0974bc2d9757b1e"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p1/build.gradle",
+      "size": 500,
+      "sha256": "4c178ff7f59e6c11d6dd2cad12678d400ba55519318d839a1472b5231fb39997"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p1/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "ae434eab70f83e3ea717af744279f4ecb5a155c8923cd6c52642aee9cc100dec"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p1/src/main/java/fbx/p1/C.java",
+      "size": 3542,
+      "sha256": "9bb8ad203f195f6a2edc9b1bc7aa84a5a1931465b5aa5da825451d9a4c7844a2"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p1/src/main/java/fbx/p1/F.java",
+      "size": 3542,
+      "sha256": "877ff5869191bee77dfebe66955debb2c0e48b0af39c883a8407c7b973a79ddd"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p1/src/main/java/fbx/p1/G.java",
+      "size": 3542,
+      "sha256": "87d288a5746bddd3329fa5101c45184b29b98f723ca10c1fa7688eee87290aac"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p1/src/main/java/fbx/p1/MainActivity.java",
+      "size": 3530,
+      "sha256": "889e84813ab93c7f42792252ec4a99c01e25f4cb56c6cdb37f9331f1d1fb370c"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p1/src/main/java/fbx/p1/T.java",
+      "size": 1343,
+      "sha256": "bcae2fa2083b7bc05d06a7ec6ed693168bd45b794d38fbbafb5184304eedf38f"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p1/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p2/build.gradle",
+      "size": 500,
+      "sha256": "525a7e3a26092b67fb8263aaa4cbbb83f837ec387e52412bd978cf235d381c68"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p2/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "96a967fbd7c74a3a07ec0d79822139f305907ade39459ef72af28beec6a6c7bf"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p2/src/main/java/fbx/p2/C.java",
+      "size": 3542,
+      "sha256": "de025b730a501bdf8abaa8a816a6d1f73288d9e5ec7e5cdb20898c7a37472d0a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p2/src/main/java/fbx/p2/F.java",
+      "size": 3644,
+      "sha256": "b856e4b9a872747a42d93a7959d99dc01d9acc3bb13a5d41ba9ff36a8d93c29e"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p2/src/main/java/fbx/p2/G.java",
+      "size": 3542,
+      "sha256": "381dd03f8fb1890a57defd6c63bfa543595fe2523a4f5565dcdf79539fea19cc"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p2/src/main/java/fbx/p2/MainActivity.java",
+      "size": 3565,
+      "sha256": "c7c4075d8276fc05b9510a7e4c463f11e8c839ca7994f4ef71bd38e1922f9a98"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p2/src/main/java/fbx/p2/T.java",
+      "size": 1343,
+      "sha256": "b41edbf31cbdff3122aac88466b74c76225d4e467072403798c1d1e3a1796217"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p2/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p3/build.gradle",
+      "size": 500,
+      "sha256": "ee56a5011953825ea666aa8442a07f4a4438a9a9fa350c43c1113e1cef63cb04"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p3/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "6492014dc99da789dcb72ba9066818fc4c8f8674bc433fa1b5e7457658027751"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p3/src/main/java/fbx/p3/C.java",
+      "size": 3542,
+      "sha256": "bd0f0da370184e93476a6e373ceef5e85173e69fe6611935ff350a47dd5f5053"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p3/src/main/java/fbx/p3/F.java",
+      "size": 3699,
+      "sha256": "6a53fef62b7917a76d775b16aceae1340c83182ac9025800c7f1dc9c851450c0"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p3/src/main/java/fbx/p3/G.java",
+      "size": 3542,
+      "sha256": "c6f722f2c3e4e28da88363fae196e83e3b81f4275763e661512b3330b189f656"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p3/src/main/java/fbx/p3/MainActivity.java",
+      "size": 3519,
+      "sha256": "3d8cf0a28b212bacb8e7aa9767c20519aca64e73cd085dd56d7efa700fea03fc"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p3/src/main/java/fbx/p3/T.java",
+      "size": 1343,
+      "sha256": "d1a44fe3b3af8cf1a2e68bffcba531602ec04bf74f48132aec2b4c56605c0f6a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p3/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p4/build.gradle",
+      "size": 500,
+      "sha256": "636b85623291186c9859aa28505327872b4ce9f144ea020064c8b4d545a0e6cc"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p4/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "c2bd249d428497716e21bf1198722b6d79700a7d0355f515518abd931b463d3e"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p4/src/main/java/fbx/p4/C.java",
+      "size": 3542,
+      "sha256": "c96937736a85724fb0e6dfb3c906334c56dd58373b91915725526780fb7a1f6f"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p4/src/main/java/fbx/p4/F.java",
+      "size": 3648,
+      "sha256": "99ba524325bb3e010a75edaf4fc4d26244a8013ddf4e75c873e21863b16591de"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p4/src/main/java/fbx/p4/G.java",
+      "size": 3542,
+      "sha256": "b271dfd6e29efe763df6cb73e022672b28b030c9995aee1c6a93311f0b636d50"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p4/src/main/java/fbx/p4/MainActivity.java",
+      "size": 3483,
+      "sha256": "26b11544ff805a43fb70b58feaed4b7841fb3595827dbae256da9c9498fee33f"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p4/src/main/java/fbx/p4/T.java",
+      "size": 1343,
+      "sha256": "a4cf0c5b0c05bc5292c04d00f5bbb63ee3ced3ea68f97a68ceca60314ce30a6c"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p4/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p5/build.gradle",
+      "size": 500,
+      "sha256": "30faed67d0fb5366bfa89f03a5b9c48423170608dbb542996c28ae34aa35a9e0"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p5/src/main/AndroidManifest.xml",
+      "size": 674,
+      "sha256": "6225f25740e13268bb732e7ca8ccd55cd33a57ad7c731b78c1dec4ce2ccf4bdb"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p5/src/main/java/fbx/p5/C.java",
+      "size": 3542,
+      "sha256": "62efb2689473f966e6d78e2b93d578696262a62ff45d5f14dac39254cce979d4"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p5/src/main/java/fbx/p5/F.java",
+      "size": 3542,
+      "sha256": "dbe7161a3b2bd2bb84a853674ec5ec513c2abca39cae3933201d5f5efd5c3659"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p5/src/main/java/fbx/p5/G.java",
+      "size": 3542,
+      "sha256": "28903391b82cf060fba3ed3b2dd0a465ce492c9cf34c9b0fbf881471e41c568c"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p5/src/main/java/fbx/p5/MainActivity.java",
+      "size": 3624,
+      "sha256": "849e6544566e5e08215d30d54eea31839d59f4afe16fdd8d9b001e31fcfd7132"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p5/src/main/java/fbx/p5/Second.java",
+      "size": 512,
+      "sha256": "c404090936985d87d38066f3bfd030cc716910299e6dbca28e5cb3a433e95400"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p5/src/main/java/fbx/p5/T.java",
+      "size": 1343,
+      "sha256": "571e909c74c0cc40e565d5cacabddbeed764b750ffdb644b268ca446ea2daa97"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p5/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p6/build.gradle",
+      "size": 500,
+      "sha256": "e5f832a360c5807a693c0a0e0c406fb79f7dc836d32510d2c864575af1b869e7"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p6/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "440a5aefaf818085749595703348afa5ca88f2de50150b23249bd06563cc8db5"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p6/src/main/java/fbx/p6/C.java",
+      "size": 3542,
+      "sha256": "376b94daaad631deccd279327da27c244d02709b11aecdedf750916bd848a0ac"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p6/src/main/java/fbx/p6/F.java",
+      "size": 3542,
+      "sha256": "c7d43d91ecfa3a3db421efd7e8ce13e65654d154909613a0910db7b23978ba79"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p6/src/main/java/fbx/p6/G.java",
+      "size": 3542,
+      "sha256": "41ab7eb8070eb030f95ac2d15e425eada90b48b2a28eaa856735d427e4337164"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p6/src/main/java/fbx/p6/MainActivity.java",
+      "size": 3540,
+      "sha256": "81a1cc0e47321d9eb005fa830903c1eda65d569921d9890b48d69ece242d2d00"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p6/src/main/java/fbx/p6/T.java",
+      "size": 1343,
+      "sha256": "2c76805f43f6de94763f078cc5f6ce8413e3e337f744c1d8e59db48b39fc82ef"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p6/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p7/build.gradle",
+      "size": 500,
+      "sha256": "4f0c95c691eee43e5c67dd1638b05d52b98c0db14e399f7c09b4e075d29d8610"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p7/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "2705ca48e68edb7f623e2549e9d43c2ea29e8df3000f8c2b9b408caf9ef44c0a"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p7/src/main/java/fbx/p7/C.java",
+      "size": 3542,
+      "sha256": "5d7651bb8201d491c219039f1628fb6954d171a765af03da0586b485bfee9688"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p7/src/main/java/fbx/p7/F.java",
+      "size": 3542,
+      "sha256": "0742872aff8dce6200d03e67c067615a3b8e754328de10e96e1c108a63fdee46"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p7/src/main/java/fbx/p7/G.java",
+      "size": 3542,
+      "sha256": "04cc56ca49ca40830bc13647390ea1ff82bb331730c88669f12fe6a62b80e0d6"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p7/src/main/java/fbx/p7/MainActivity.java",
+      "size": 3505,
+      "sha256": "0ebd98a8840ed0558b6389e4a2068491a0c1c9c461bdb0d643024818e452a713"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p7/src/main/java/fbx/p7/T.java",
+      "size": 1343,
+      "sha256": "1a3b2bfcf6975634728e25f232319d33a4b501c93c91f87f3cb6920a99335ac1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p7/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p8/build.gradle",
+      "size": 500,
+      "sha256": "c9512b93b6d172ecd121e0b81d59afba5890ba55e34c3d9ef8502fb42b667ea4"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p8/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "d9817cad3144f41186f8e03cee7a102751f6a7404b59d90aed0cf2ca8ac0bd7c"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p8/src/main/java/fbx/p8/C.java",
+      "size": 3542,
+      "sha256": "6531a295f7065b8511a5695a04674793858c97fffb0ab98ce21fde6f566452db"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p8/src/main/java/fbx/p8/F.java",
+      "size": 3741,
+      "sha256": "083d61261940a3f6e3ab47b33e7d28de550677d05e328ca42bfc35f9dcfd5849"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p8/src/main/java/fbx/p8/G.java",
+      "size": 3542,
+      "sha256": "d6ca7fd49c9817fa0b0c018d11d136c74d7b957079d8c13e954b4180337a3dbe"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p8/src/main/java/fbx/p8/MainActivity.java",
+      "size": 3519,
+      "sha256": "468a792d0eb77d29408403c79240d85c8dd4ca4249df2b57edcc71e8d4b622bc"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p8/src/main/java/fbx/p8/T.java",
+      "size": 1343,
+      "sha256": "f5cfcd7bedab64fb7da35063bb9446a645bccb6b53aaf2d15c54b62baa491f00"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p8/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p9/build.gradle",
+      "size": 500,
+      "sha256": "cab3c29ef61fd7bf631f4972e2bc00d352aab81f0bf60a0f44ed544d527706ed"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p9/src/main/AndroidManifest.xml",
+      "size": 575,
+      "sha256": "7bdb34407255971799a3eec264a1611e348f4839c16ec1b05954867d897c03fb"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p9/src/main/java/fbx/p9/C.java",
+      "size": 3542,
+      "sha256": "4e83709f5d83566d514f34f5340ad2e2c87b5f07c3c92e992685ccb5f79f11a4"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p9/src/main/java/fbx/p9/F.java",
+      "size": 3542,
+      "sha256": "efeff407b00b9928d7fce9dca5056e5ec0661c255b97d8ee7d592bee835b3323"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p9/src/main/java/fbx/p9/G.java",
+      "size": 3542,
+      "sha256": "e8f29c9c52560f06a5bdb3efec9803bfefeade4c8ca6ba6159f908cc6ec2bcfb"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p9/src/main/java/fbx/p9/MainActivity.java",
+      "size": 3546,
+      "sha256": "38c5ad725688a48857c4a04aac8bd9fc7d02b397e7adb94d77ec38965a507514"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p9/src/main/java/fbx/p9/T.java",
+      "size": 1343,
+      "sha256": "f85f8362bb8ead0d3c71acdb4972349cab0b50d5a501529f214dc68da4584a4f"
+    },
+    {
+      "path": "benchmarks/fragbench/project/p9/src/main/res/layout/main.xml",
+      "size": 585,
+      "sha256": "50c749fb6a826e135a15901da3d94ea98d6ad69b02b91ee34e8bb3f4a7a816f1"
+    },
+    {
+      "path": "benchmarks/fragbench/project/settings.gradle",
+      "size": 698,
+      "sha256": "13348decbc8fc64ff266db09cd3dc4f2972c3619bcdf39a232e403b1e87b914d"
+    },
+    {
+      "path": "dependencies/manifest.json",
+      "size": 911,
+      "sha256": "527cb93ffad9d48a0e158bdc88b565c39ff88307aaa5ed8e7dac6d10e7049121"
+    },
+    {
+      "path": "docs/DATA.md",
+      "size": 3682,
+      "sha256": "3f551bb98f0f588b1c91d912e35028df494f4391f6c8ab00b33f48d31eec22b3"
+    },
+    {
+      "path": "docs/REPRODUCTION.md",
+      "size": 5874,
+      "sha256": "ad534ec61f1b2ffbde8bb97a227dcb23878781c2801144cd28e1f576a1c77308"
+    },
+    {
+      "path": "docs/RESULTS.md",
+      "size": 2434,
+      "sha256": "29bc68f8e7daa18bb5a77eee34714e90d606e89cae16b4ddad056bef274b057d"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "size": 3182,
+      "sha256": "8fe5d8ea800be4880899dd428210b5d12175ae89a059b5c3e8093eedffcb23ae"
+    },
+    {
+      "path": "docs/data-audit.json",
+      "size": 14939,
+      "sha256": "b2efeacdc92d12c995b0b4831bb849e23ee8c634e51a2ac52a90871db912329c"
+    },
+    {
+      "path": "docs/reference-audit.json",
+      "size": 45993,
+      "sha256": "9cc32d45ed39d91017abfa61646b10596d4419e5cde783fe6c5c2a391f2d4adc"
+    },
+    {
+      "path": "docs/references.bib",
+      "size": 21274,
+      "sha256": "8b1eceace3845316ab251cdb9b115b2f29c8c932cd5d55232630c01a024e9a0b"
+    },
+    {
+      "path": "docs/runtime-requirements.json",
+      "size": 2356,
+      "sha256": "b466f7bda1712dd94dc820a8400734a297ef019af83e73efc35312c20c413fc0"
+    },
+    {
+      "path": "docs/validation.json",
+      "size": 1519,
+      "sha256": "4ac13713d710f7da26ba282516c4f3b0773c1afa2006ff0858b62f3228fc17d2"
+    },
+    {
+      "path": "experiments/corpus94.csv",
+      "size": 20061,
+      "sha256": "b0a2e9c80bddffc1464efa63573bb3138546700e3eddec75f9f61c3bce5542a8"
+    },
+    {
+      "path": "experiments/data/cost_instances.csv",
+      "size": 362627,
+      "sha256": "f9566947c90219a57025e84e6e2b9619283221b202579c208bfdcc207a5aafd8"
+    },
+    {
+      "path": "experiments/data/dynamic_cases.csv",
+      "size": 10203,
+      "sha256": "cb26c9fbd5f66cca3f28d47910b2e7f9e12686fa9378857f3ca9853b69ac941a"
+    },
+    {
+      "path": "experiments/data/gen8_components.csv.gz",
+      "size": 568614,
+      "sha256": "1635748ae2f354345adf18c7e8cd291e09a43f2c5d81f78a467accc66de7d526"
+    },
+    {
+      "path": "experiments/data/gen8_instances.csv",
+      "size": 856683,
+      "sha256": "71f04e367efccbf90edf86d0bdd8fb481dd4bb1a9921d672d097ffd02a4aae95"
+    },
+    {
+      "path": "experiments/data/manifest.json",
+      "size": 1258,
+      "sha256": "f5f977f0f0ccf4defe5e7e32cfbf662a236b093d71e89c181ef73379f4d69f7f"
+    },
+    {
+      "path": "experiments/data/taint_flows.csv.gz",
+      "size": 40453,
+      "sha256": "bf04c1d7847bef383a4e9142d479bdeeb35bf4afd77d031b174342bde1cda025"
+    },
+    {
+      "path": "experiments/data/taint_instances.csv",
+      "size": 476457,
+      "sha256": "39b004060545940fabbdf333fad6cac35c9f8fd2eb2c725fc9e06ed16fdcc68f"
+    },
+    {
+      "path": "experiments/main211.csv",
+      "size": 33661,
+      "sha256": "654a749070d2ab3edb95580c86c12feb6a31b60e5605c0afc316568297450ed6"
+    },
+    {
+      "path": "experiments/protocol/SourcesAndSinks.txt",
+      "size": 42031,
+      "sha256": "06e288dd12067a9068458b0abf664dc2878760077786044436210b1875b6e6ef"
+    },
+    {
+      "path": "experiments/protocol/source/analyze_performance.py",
+      "size": 22684,
+      "sha256": "f55d9a41778deb21db18245be5e580f6aaf02ea4c24c2d7c21d1685932cb35fd"
+    },
+    {
+      "path": "experiments/protocol/source/analyze_real_flow_differences.py",
+      "size": 9613,
+      "sha256": "801336e3fc02e23b85c46b7e5ffa6bbed99f5373b76be8f7f820fe6783af87fb"
+    },
+    {
+      "path": "experiments/protocol/source/annotate_taint_outcomes.py",
+      "size": 29505,
+      "sha256": "dba57ac84d868761dcdf984c58139eb6b81999e3cf63f0454d9837f781c85aba"
+    },
+    {
+      "path": "experiments/protocol/source/posthoc_holm68.py",
+      "size": 11218,
+      "sha256": "b081a3d7a7503a05c4059e7eafd4964322f675d528e3bf78fa3b1ebeb73d40aa"
+    },
+    {
+      "path": "experiments/protocol/source/read_androlic_gc_metrics.py",
+      "size": 10803,
+      "sha256": "407c2ee62060f5922eef7b0f6d6b88246ded813585284ddaa390ace885a4a435"
+    },
+    {
+      "path": "index.html",
+      "size": 1395,
+      "sha256": "2790d079a411154d2cce4a154d9900458399fd379167d2486a15d984c25574e2"
+    },
+    {
+      "path": "instrumentation/build_androlic_probe.py",
+      "size": 4599,
+      "sha256": "f38db2bb8fe1df93df5e2c99720cb63bb822c47f1d4863533cbdcc0e2923ea02"
+    },
+    {
+      "path": "instrumentation/build_export_probes.py",
+      "size": 5012,
+      "sha256": "ddbe7f1c6c8d45dd22828b5ca1632d9ab6c62bd00023108afd838f9ae6e57f39"
+    },
+    {
+      "path": "instrumentation/rev/measure/AndrolicGcProbe.java",
+      "size": 4020,
+      "sha256": "107928f42954c3ebbfedababc5b1fa139f67bc9bc704a7bdd1acc0e6a79b0404"
+    },
+    {
+      "path": "instrumentation/rev/measure/AndrolicProbeSmoke.java",
+      "size": 1526,
+      "sha256": "e78df82917541b338c6c136bb5ef6df7372bdc248e58e2f7d70e66c7d8a38fe5"
+    },
+    {
+      "path": "instrumentation/rev/measure/ExportGcProbe.java",
+      "size": 17717,
+      "sha256": "0f819e278d0ca593c392c85aea2266d8ce4237f19dd157707322a4b2714df7f3"
+    },
+    {
+      "path": "instrumentation/rev/measure/ProbeSmoke.java",
+      "size": 1312,
+      "sha256": "f8f7955dbf9a649539a1aa7bb74954a0cc334b41d6f698cb048ca0d4616bbf53"
+    },
+    {
+      "path": "legacy/README.md",
+      "size": 627,
+      "sha256": "9a52ed1d18af207f0595ed72573fb5f6721e52c365e50bf89d1288cfc748a13d"
+    },
+    {
+      "path": "legacy/index.html",
+      "size": 611,
+      "sha256": "6eb3efa275b0579064421e4f415fd6da10f1d551a6dca004bfe5597372312266"
+    },
+    {
+      "path": "legacy/pom.xml",
+      "size": 898,
+      "sha256": "eb0ad09f9d2bef0937501871df6b597c582523c921f1ad1fd3ef0909fecb6265"
+    },
+    {
+      "path": "legacy/results/large/rq1_components.csv",
+      "size": 21768,
+      "sha256": "5cf141fae759804df12244a566edbc9d99bb3f89bbe7cb9329ce091dfafb41db"
+    },
+    {
+      "path": "legacy/results/large/rq3_large.csv",
+      "size": 163,
+      "sha256": "c771f5546980c5d46f40f931eba8cd877057d1a52814756128ae78fac055b254"
+    },
+    {
+      "path": "legacy/results/large/rq_app_summary.csv",
+      "size": 434,
+      "sha256": "cbe8119fc99539d3f4a4a4411e141bc3a778da563e3944ebafe898d7505fd1ae"
+    },
+    {
+      "path": "legacy/results/rq1_components.csv",
+      "size": 67907,
+      "sha256": "25d1b2b4db761eea9e4b2718d97f755aed2775f16000d8101eed514713a0b044"
+    },
+    {
+      "path": "legacy/results/rq1_generated.csv",
+      "size": 66908,
+      "sha256": "f22090e97bb8847a2f6bbe4ad937a301adae2b85489e24adc2dab87037ef7f23"
+    },
+    {
+      "path": "legacy/results/rq3_androlic.csv",
+      "size": 2170,
+      "sha256": "0414047df3c48d79ee16a1abe4a43688948abeaa87a1427e0a80676f1e2a8562"
+    },
+    {
+      "path": "legacy/results/rq3_flowdroid.csv",
+      "size": 5480,
+      "sha256": "918c13a0755c736040627bb3427dc17ffb910fe2f2a37df8048c2918da89498c"
+    },
+    {
+      "path": "legacy/results/rq3_flowdroid_real.csv",
+      "size": 978,
+      "sha256": "45a3846c7fc15c9c62d8030314266bafc2135e94801f3ca1a46202ab98c906c5"
+    },
+    {
+      "path": "legacy/results/rq_app_summary.csv",
+      "size": 23290,
+      "sha256": "e4365b5a9234fc4e96c5c4195d2ffc0c2db4a85ef35a170e7718505814525a22"
+    },
+    {
+      "path": "legacy/scripts/SourcesAndSinks.txt",
+      "size": 2803,
+      "sha256": "591f32d339ca07cbc704965ef6d727ad3acc0635404b2056d18b696e0fc33797"
+    },
+    {
+      "path": "legacy/scripts/aggregate.py",
+      "size": 4504,
+      "sha256": "af5410ea1bc38adb16f715f3c930a72ad3c9a315457afea38b339040e3f1ed1f"
+    },
+    {
+      "path": "legacy/scripts/rq3_analyze.py",
+      "size": 3916,
+      "sha256": "3c29764e559dd6af270f7ba411dda2324399cffcfb0b64b94a215ade0af86c5b"
+    },
+    {
+      "path": "legacy/scripts/run_androlic.sh",
+      "size": 2122,
+      "sha256": "f6528ed6a0ed171a80d462eeaa1123238c078e5cf77882a21308682c7c2eb7cb"
+    },
+    {
+      "path": "legacy/scripts/run_androlic_more.sh",
+      "size": 1901,
+      "sha256": "a834dbb188aef5d63ff5c8db06e33b29dad6dc6206e72aba22caf4f386e61171"
+    },
+    {
+      "path": "legacy/scripts/run_batch.sh",
+      "size": 1810,
+      "sha256": "d5e535ded4ce17d4ee676271fc74f6cec442499ded6ce1eeadedced85779fafd"
+    },
+    {
+      "path": "legacy/scripts/run_gen.sh",
+      "size": 1139,
+      "sha256": "632ecd226e6f43476f3cb7a4326ca6b039051bf3ea1c60aa1d177084132aa388"
+    },
+    {
+      "path": "legacy/scripts/run_rq3.sh",
+      "size": 1312,
+      "sha256": "532a835bc3f0061cfd93c3209bc7e32879439814ece52a3627c463b3a9350f70"
+    },
+    {
+      "path": "legacy/scripts/run_rq3_real.sh",
+      "size": 1070,
+      "sha256": "c73f70fc2cf45967221833f8cd29b0e9fe6c70d18ab72adf98736eb0e9943661"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/AndroidCallBacks.java",
+      "size": 18944,
+      "sha256": "f041c86f2080e3ece1b8c96a28cb60ebfa82bb9e7ca85f8fa2a569ab36caa9ec"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/DMMMain.java",
+      "size": 2356,
+      "sha256": "77f68479cb56f9e39c3427ff98e6084f5353695979becf25e9bb09811fa3e728"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/DMMPPOptimizer.java",
+      "size": 10664,
+      "sha256": "70a2fff729a79652fca10590228b334ec23cc71c873bf6087241c6a5285be6bd"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/DMMSootConfig.java",
+      "size": 2258,
+      "sha256": "2a3410ba62b8776965e7895824405157e459d956bbc218787a2c97c97e04144a"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/Log.java",
+      "size": 2233,
+      "sha256": "7751ec4a635b4441f102f99574306c6c11be3dc2cf2e69afdeca0a81264b0336"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/gen/AbstractDMMGen.java",
+      "size": 3370,
+      "sha256": "cfa71e921da4895b83083470ed4dc0cbb94191a53e745f814179241439840ee4"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/gen/AbstractInstrumentation.java",
+      "size": 6871,
+      "sha256": "6a0277071ce13bb6505691294c4b2cdb7453b4041450b2d78d98c613beccc11e"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/gen/DMMFactory.java",
+      "size": 6777,
+      "sha256": "073c4b633423082ed48eb8203d5367d19f12e64e04bd336bc4210db69a82a877"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/gen/DMMGen.java",
+      "size": 6699,
+      "sha256": "6d374a652f159430727d66f4d3c03b2a18891a4bd255c6245a1f8fb947215c57"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/gen/IDMMGen.java",
+      "size": 236,
+      "sha256": "291bf27895a7ea4a980f89017c6776eb815edad42629a45e6c7e1f1526554eac"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/gen/IInstrumentation.java",
+      "size": 1608,
+      "sha256": "b4ca30200ecfaa398b8a20db680fcb949d9fda8473e063fb838362aafd428804"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/gen/PDMMGen.java",
+      "size": 11740,
+      "sha256": "297de25faca7f426ed931e0e1cf9a738be8c9dcd349a173ab1c4918de6ff60a9"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/lifecycle/AbstractLifecycleGraph.java",
+      "size": 754,
+      "sha256": "797de9090378161b29b462c77e6095275c160f0cd39d52376d4d61d9c9c60477"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/lifecycle/LifecycleGraph.java",
+      "size": 305,
+      "sha256": "fb2ae36abd08df4ce3ac2f81d62abba55a57ad2548f7a6ef58995474b0027c24"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/lifecycle/LifecycleGraphActivity.java",
+      "size": 2962,
+      "sha256": "bd415fe196a7c4db856a29e2e508b0f668c2459743302b2a3a528a4e241012ce"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/lifecycle/LifecycleGraphBroadcastReceiver.java",
+      "size": 620,
+      "sha256": "fa9baafca249051f9090162613d3b2869510f6487391050686a86c17c82c19dd"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/lifecycle/LifecycleGraphContentProvider.java",
+      "size": 615,
+      "sha256": "df9f7c4c7db1a7205a591e4fcef99a01c5ebd95afdd37d0df6637456ed57a76e"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/lifecycle/LifecycleGraphFragment.java",
+      "size": 3191,
+      "sha256": "90961d94b789622252e4c04d94eaefe452fa4a24d11a9aec4f82ac1ad64738b6"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/lifecycle/LifecycleGraphService.java",
+      "size": 1568,
+      "sha256": "d11fc2b502300acb072c27dc927fd8f5791e42ba62d9f656ccf61122386c421a"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/dmmpp/lifecycle/Node.java",
+      "size": 1322,
+      "sha256": "90ef23fada84d3aa2202cd42ffcee5502ed5282e2589c281d6d0a21e117f172a"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/pdmm/AndrolicRQ3.java",
+      "size": 5719,
+      "sha256": "30a913a4672cf1557b3e31978bad2c8f8d38dd630ec976a629703e6d7b361494"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/pdmm/DebugEdges.java",
+      "size": 1550,
+      "sha256": "ce4522b22e91f82c8379524f0df8c6db301f83df8b4f2b61e7aa6fcac5720054"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/pdmm/LcsEvaluator.java",
+      "size": 10331,
+      "sha256": "a2a4c81265ecf93025619360c5ffc83b7a644d830a5b5ad3410831062f2f200a"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/pdmm/LifecycleSpec.java",
+      "size": 9637,
+      "sha256": "61ffd77bbccc1c8dd5c31ea72a700a1f29d10eb0c87ab958a8b1e323dd81b357"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/pdmm/PDMMGenMain.java",
+      "size": 5858,
+      "sha256": "cfaf60f7a62dd30d8ed66bd0190785f660f429b56bf551c093ac1c6876344ae4"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/pdmm/PDMMMain.java",
+      "size": 14839,
+      "sha256": "cc60543af6ba080d8d352f13c73e80cf3610f190859a4d56edf7a0715b773eb0"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/pdmm/ParamPartitioner.java",
+      "size": 5142,
+      "sha256": "ac40a23edacc4ee8c925301bc33c8bffd45c91799528167420b4ba459d3a0528"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/pdmm/ParamSlot.java",
+      "size": 1285,
+      "sha256": "37ea5dbabd189402534a9471a362150888eab3b6723ed9c9a99445e97da9237f"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/pdmm/Probe.java",
+      "size": 2706,
+      "sha256": "1f5cf89a82d9ed29d08c1708206603449850c3e447ff4e21d78ff2b5d6927fea"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/pdmm/TaintRunner.java",
+      "size": 2321,
+      "sha256": "b9d5dac805d3c2e3dfd75be04dfbbd8a26c8d94a99d0e58dea633e5ccc20d3a6"
+    },
+    {
+      "path": "legacy/src/cn/ac/ios/pdmm/VerifyApk.java",
+      "size": 2138,
+      "sha256": "22ff5e29194cdf4526777c7eab3858c9162fbb29bf57cb5e01db02383475785f"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 14,
+      "sha256": "ce972e5602f1badf47b56ce597ebf4a3cbc516ca6c8979c95ee75c067d275840"
+    },
+    {
+      "path": "scripts/_common.py",
+      "size": 3739,
+      "sha256": "ee7429826a71d905859c47f84b6886183bc22663873a2435b7de65d739ecd762"
+    },
+    {
+      "path": "scripts/build.py",
+      "size": 11900,
+      "sha256": "90278cb2e1d2163ef8085f0a63c433b47b4e083ffbaf463904a0eeefafa07b59"
+    },
+    {
+      "path": "scripts/build_fragbench.py",
+      "size": 6852,
+      "sha256": "0d08a3d889ac5740801fefec5317a9e30944d7363fc90532b70a9475cdd550ea"
+    },
+    {
+      "path": "scripts/check_integrity.py",
+      "size": 1304,
+      "sha256": "306b5fe139460158edc44f3790ff105ddc031191533b50f2807f49d0ebd4622f"
+    },
+    {
+      "path": "scripts/cost_selfcheck.py",
+      "size": 7140,
+      "sha256": "c14e436ad0bcb42ccc55927d530129c7827605e9c8c7f17cd4574cae5e90d3c0"
+    },
+    {
+      "path": "scripts/cost_validation.py",
+      "size": 11243,
+      "sha256": "d2673b690e04638cc88078e4f68ea39bfdf48f20fea8c027c746ee966b04f681"
+    },
+    {
+      "path": "scripts/fetch_dependencies.py",
+      "size": 1778,
+      "sha256": "909ee68d2a1ef533a1fa381835500029cad365ba7ccef713cbd612cab68d18ca"
+    },
+    {
+      "path": "scripts/helpers/gc_artifact_validation.py",
+      "size": 10127,
+      "sha256": "7ad8215e47a284bf5ba0bd25ce08944c8c8917f54670916f6ea53db2fbf89375"
+    },
+    {
+      "path": "scripts/helpers/resource_monitor.py",
+      "size": 17309,
+      "sha256": "582b543d82ca812e3c862258a068e4c09f44dfbaeea04a59250752687d80d3a4"
+    },
+    {
+      "path": "scripts/helpers/run_exports.py",
+      "size": 22559,
+      "sha256": "6e07033541b3d5d7f55d2a97a7da2021f53d5806dc3fd23bc14e8b49f4ed9050"
+    },
+    {
+      "path": "scripts/helpers/run_exports_measured.py",
+      "size": 9775,
+      "sha256": "71b8227bd42873311f5b0cfa7c7002e7864b5eb389687640a22ae23b91de4103"
+    },
+    {
+      "path": "scripts/helpers/run_static.py",
+      "size": 30280,
+      "sha256": "aa7e4082e7d4156efc033abe2700982f55f96fb879342f05717e10ae1a2f0932"
+    },
+    {
+      "path": "scripts/reproduce_results.py",
+      "size": 21109,
+      "sha256": "a34b2f97505aff528434bada5d42607f3b2cdf7be547dc1e853ec37513bceda4"
+    },
+    {
+      "path": "scripts/run_cost.py",
+      "size": 14207,
+      "sha256": "2862e0e31ff11d6955b3ab4f0db0e9e81b83baae78d92e3a777916177ba50146"
+    },
+    {
+      "path": "scripts/run_export.py",
+      "size": 8164,
+      "sha256": "7325f814ed25aab08ae91523e26296953eeead72aa617e21f996f81b416394d0"
+    },
+    {
+      "path": "scripts/selfcheck.py",
+      "size": 6286,
+      "sha256": "825e8531e2fb14116576d9811de8e45980dd44e3b087866cc4e047d4bb9e534e"
+    },
+    {
+      "path": "src/rev/DexClasses.java",
+      "size": 1493,
+      "sha256": "f28357efb4bf35ae59d21edb8b4c9d140aa98ca2bd67d580f4abdd91cb811441"
+    },
+    {
+      "path": "src/rev/DumpFlowDroidDMM.java",
+      "size": 5607,
+      "sha256": "4ba3bfc57bbbabddde35606d16f8c25b35e888a48b80a8cbedfbe764449b8908"
+    },
+    {
+      "path": "src/rev/TaintRun.java",
+      "size": 9912,
+      "sha256": "f8ee27ad1c368ff246fac5d1a299d7b0e733114fcc9ba4aae229e50a2f9f8cd7"
+    },
+    {
+      "path": "src/rev/common/DmmEdges.java",
+      "size": 11679,
+      "sha256": "5842249f5cb99114c0316120ae3dcdf4c83cbf40415c05a92cdec011c0cefcc6"
+    },
+    {
+      "path": "src/rev/common/Kinds.java",
+      "size": 3160,
+      "sha256": "1f12b67c542349dc32dbd071260816d2a2ddfed6459aeca81e5661e596846065"
+    },
+    {
+      "path": "src/rev/common/LiveSetTracker.java",
+      "size": 3040,
+      "sha256": "b965173abd9a69a2a4badbe1c91a87a8a6d07e6918103f51c737b58d812ed5c3"
+    },
+    {
+      "path": "src/rev/fd/FragmentPhaseCreator.java",
+      "size": 9756,
+      "sha256": "be0e4874953399aaf5a4c3530409e580f9edc3df144411dab1b78972dbe1220e"
+    },
+    {
+      "path": "src/rev/fd/HostLinker.java",
+      "size": 3778,
+      "sha256": "240b4335f3aed711b0de35102fb111d57905a29fd5ac37f7863efc5154f7435f"
+    },
+    {
+      "path": "src/rev/fd/HsmActivityLifecycle.java",
+      "size": 6814,
+      "sha256": "91e671f5b8f08b3d1d68b9b727265a83325939956807409ae7b8cac6cf1bb808"
+    },
+    {
+      "path": "src/rev/fd/PdmmConfig.java",
+      "size": 1880,
+      "sha256": "80f2fba8539ab720d5885d437af851b95233564fd5470dddb167da5d4e7823d3"
+    },
+    {
+      "path": "src/rev/fd/PdmmRegistry.java",
+      "size": 3316,
+      "sha256": "9a7b543101c507618967fa80e2d63e269618c4101c55e6e33d5d3711eeac990e"
+    },
+    {
+      "path": "src/rev/fd/PdmmSetupApplication.java",
+      "size": 863,
+      "sha256": "e4842b9c341475ccb6d09a1ec356ac31452b4991135add944944f9c1aa25668d"
+    },
+    {
+      "path": "src/rev/fd/TxSiteInstrumenter.java",
+      "size": 15806,
+      "sha256": "eae23f14d7afb65e03a466737d9fa395d8e91203a8be22b4489bcb0d409d5e3c"
+    },
+    {
+      "path": "src/rev8/Androlic8.java",
+      "size": 7030,
+      "sha256": "3a5c3d898e3102bd1164c92c4ecc175594df2b2dc5e38bb7ffb14d4a217ef7d5"
+    },
+    {
+      "path": "src/rev8/DumpDmmppDMM.java",
+      "size": 5738,
+      "sha256": "afcebd9ceda70bf2747bb3c0f6326ccdb0cae271c2d5f8bf8ebcbeba598b02e8"
+    },
+    {
+      "path": "src/rev8/DumpGen8.java",
+      "size": 6955,
+      "sha256": "30ad06cf770297d54185979794fbe018aaab87488379df0d65d1ac0d47edbf77"
+    },
+    {
+      "path": "src/rev8/FragmentHosts.java",
+      "size": 8169,
+      "sha256": "65ed4ee0a559bc9dffcf4a57a0b0322beb7c0d4a6bd12c7e6b44560217f0d10c"
+    },
+    {
+      "path": "src/rev8/Gen8.java",
+      "size": 24016,
+      "sha256": "11291223a5f7fe7cd5a02465275a3f9f676a5f6be0dcbeebcde3404e639e728f"
+    },
+    {
+      "path": "src/rev8/SootSetup.java",
+      "size": 3376,
+      "sha256": "0d88a69ab4fb336dc61ea68a7a9fd8d100c83f0014f9d8e89b4c12c98fcba26d"
+    },
+    {
+      "path": "src/shadow/soot/jimple/infoflow/android/callbacks/DefaultCallbackAnalyzer.java",
+      "size": 14306,
+      "sha256": "a74e11cd7e3f658023a8bef692ad553f12819c713750dade258d4e8e9e419ede"
+    },
+    {
+      "path": "src/shadow/soot/jimple/infoflow/android/entryPointCreators/components/ActivityEntryPointCreator.java",
+      "size": 26179,
+      "sha256": "fb820659f4f9bc9a8849fef1b042e2f4c3f75dce5e6929f66845a2f4b1f7155b"
+    },
+    {
+      "path": "src/shadow/soot/jimple/infoflow/android/entryPointCreators/components/FragmentEntryPointCreator.java",
+      "size": 5732,
+      "sha256": "122274f12a2c7c0bcdcfe333203129000f99e09db81bf2e51d0d257dcf3af5e3"
+    },
+    {
+      "path": "third_party/FlowDroid-LICENSE.txt",
+      "size": 26438,
+      "sha256": "5f541e8877fb2d39ee04c8d071f7df9d7c0d0cf5f8c9f24adcf3e8a4a0f14e61"
+    }
+  ]
+}

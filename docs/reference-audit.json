@@ -1,0 +1,1145 @@
+{
+  "date": "2026-11-04",
+  "summary": {
+    "total_entries": 47,
+    "scholarly_entries": 42,
+    "online_entries": 5,
+    "existence_verified": 47,
+    "scholarly_metadata_verified": 42,
+    "online_metadata_verified": 5,
+    "current_provided_dois": 37,
+    "current_provided_dois_verified": 37,
+    "registry_metadata_records_obtained": 39,
+    "unverified_entries": [],
+    "fabricated_entries_found": [],
+    "incorrect_provided_dois_found": [],
+    "required_corrections": [],
+    "conclusion": "All 47 cited works/resources are independently corroborated; no fabricated bibliography entry or wrong supplied DOI found."
+  },
+  "records": [
+    {
+      "key": "DBLP:conf/pldi/ArztRFBBKTOM14",
+      "bibliography": {
+        "author": "Steven Arzt and Siegfried Rasthofer and Christian Fritz and Eric Bodden and Alexandre Bartel and Jacques Klein and Yves {Le Traon} and Damien Octeau and Patrick D. McDaniel",
+        "title": "{FlowDroid: precise context, flow, field, object-sensitive and lifecycle-aware taint analysis for Android apps}",
+        "booktitle": "PLDI",
+        "year": "2014",
+        "pages": "259--269",
+        "doi": "10.1145/2594291.2594299",
+        "url": "https://doi.org/10.1145/2594291.2594299"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F2594291.2594299",
+          "http_status": 200,
+          "response_sha256": "1ed6f7f3837300e7435210d9d0754ffcbcdd000ff61527f2a04fba2f11bf2063"
+        },
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F2594291.2594299",
+          "http_status": 200,
+          "response_sha256": "1ed6f7f3837300e7435210d9d0754ffcbcdd000ff61527f2a04fba2f11bf2063"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/issta/CuiY024",
+      "bibliography": {
+        "author": "Baoquan Cui and Jiwei Yan and Jian Zhang",
+        "title": "{DMMPP: Constructing Dummy Main Methods for Android Apps with Path-Sensitive Predicates}",
+        "booktitle": "ISSTA",
+        "year": "2024",
+        "pages": "1826--1830",
+        "doi": "10.1145/3650212.3685302",
+        "url": "https://doi.org/10.1145/3650212.3685302"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3650212.3685302",
+          "http_status": 200,
+          "response_sha256": "e57595bacf91eafe9ddd487f1936b9f6c47dc85c3d75392095a357445ceb9bef"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/issta/PanCYMYZ19",
+      "bibliography": {
+        "author": "Linjie Pan and Baoquan Cui and Jiwei Yan and Xutong Ma and Jun Yan and Jian Zhang",
+        "title": "{Androlic: an extensible flow, context, object, field, and path-sensitive static analysis framework for Android}",
+        "booktitle": "ISSTA",
+        "year": "2019",
+        "pages": "394--397",
+        "doi": "10.1145/3293882.3339001",
+        "url": "https://doi.org/10.1145/3293882.3339001"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3293882.3339001",
+          "http_status": 200,
+          "response_sha256": "4bc1e6160523a2b3e7ebc6a51af04065e8f7617f4bda65daccd8b6ef13aa4f1b"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/ccs/WeiROR14",
+      "bibliography": {
+        "author": "Fengguo Wei and Sankardas Roy and Xinming Ou and {Robby}",
+        "title": "{Amandroid: A Precise and General Inter-component Data Flow Analysis Framework for Security Vetting of Android Apps}",
+        "booktitle": "CCS",
+        "year": "2014",
+        "pages": "1329--1341",
+        "doi": "10.1145/2660267.2660357",
+        "url": "https://doi.org/10.1145/2660267.2660357"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F2660267.2660357",
+          "http_status": 200,
+          "response_sha256": "dc9db26e75c76e37ee32ec74e4a093ad8f11272626d94acd0d43aae263a1623a"
+        },
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F2660267.2660357",
+          "http_status": 200,
+          "response_sha256": "dc9db26e75c76e37ee32ec74e4a093ad8f11272626d94acd0d43aae263a1623a"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/ndss/GordonKPGNR15",
+      "bibliography": {
+        "author": "Michael I. Gordon and Deokhwan Kim and Jeff H. Perkins and Limei Gilham and Nguyen Nguyen and Martin C. Rinard",
+        "title": "{Information Flow Analysis of Android Applications in DroidSafe}",
+        "booktitle": "NDSS",
+        "year": "2015",
+        "url": "https://dblp.org/rec/conf/ndss/GordonKPGNR15"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.14722%2Fndss.2015.23089",
+          "http_status": 200,
+          "response_sha256": "2789a606f0e83934039db1d6aa284ebb21bbab8bbb74fa570e1dfd3599b6ad7b"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/ndss/CaoFBEKVC15",
+      "bibliography": {
+        "author": "Yinzhi Cao and Yanick Fratantonio and Antonio Bianchi and Manuel Egele and Christopher Kruegel and Giovanni Vigna and Yan Chen",
+        "title": "{EdgeMiner: Automatically Detecting Implicit Control Flow Transitions through the Android Framework}",
+        "booktitle": "NDSS",
+        "year": "2015",
+        "doi": "10.14722/ndss.2015.23140",
+        "url": "https://doi.org/10.14722/ndss.2015.23140"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.14722%2Fndss.2015.23140",
+          "http_status": 200,
+          "response_sha256": "5fd3e0bdfbcb00110567144f8e7337b630a958a6ff7c9f25cdd77354182b425b"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/pldi/BlackshearGC15",
+      "bibliography": {
+        "author": "Sam Blackshear and Alexandra Gendreau and Bor-Yuh Evan Chang",
+        "title": "{Droidel: a general approach to Android framework modeling}",
+        "booktitle": "SOAP@PLDI",
+        "year": "2015",
+        "pages": "19--25",
+        "doi": "10.1145/2771284.2771288",
+        "url": "https://doi.org/10.1145/2771284.2771288"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F2771284.2771288",
+          "http_status": 200,
+          "response_sha256": "3e8e5c6ec869f9a5dc26cb5eaf0f2e52a0b4e8f9060ef147a889bfacd7823bf5"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/icse/YangYWWR15",
+      "bibliography": {
+        "author": "Shengqian Yang and Dacong Yan and Haowei Wu and Yan Wang and Atanas Rountev",
+        "title": "{Static Control-Flow Analysis of User-Driven Callbacks in Android Applications}",
+        "booktitle": "ICSE",
+        "year": "2015",
+        "pages": "89--99",
+        "doi": "10.1109/ICSE.2015.31",
+        "url": "https://doi.org/10.1109/ICSE.2015.31"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1109%2FICSE.2015.31",
+          "http_status": 200,
+          "response_sha256": "6c8c39914ea70e0fb48796cbd0be005aec1b2cc4dc765c2e2db235362251bb84"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/icse/ArztB16",
+      "bibliography": {
+        "author": "Steven Arzt and Eric Bodden",
+        "title": "{StubDroid: automatic inference of precise data-flow summaries for the android framework}",
+        "booktitle": "ICSE",
+        "year": "2016",
+        "pages": "725--735",
+        "doi": "10.1145/2884781.2884816",
+        "url": "https://doi.org/10.1145/2884781.2884816"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F2884781.2884816",
+          "http_status": 200,
+          "response_sha256": "1458c5a826c7e7a8a05ace042a03f93b7c692246b49c78fa96cee0080f2993da"
+        },
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F2884781.2884816",
+          "http_status": 200,
+          "response_sha256": "1458c5a826c7e7a8a05ace042a03f93b7c692246b49c78fa96cee0080f2993da"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/sigsoft/PauckBW18",
+      "bibliography": {
+        "author": "Felix Pauck and Eric Bodden and Heike Wehrheim",
+        "title": "{Do Android taint analysis tools keep their promises?}",
+        "booktitle": "ESEC/FSE",
+        "year": "2018",
+        "pages": "331--341",
+        "doi": "10.1145/3236024.3236029",
+        "url": "https://doi.org/10.1145/3236024.3236029"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3236024.3236029",
+          "http_status": 200,
+          "response_sha256": "3b4dfb2620b2d261e0b0cb9f5878ce675bc8bb276ec824d852b60c6f70435463"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:journals/tse/ZhangWQR22",
+      "bibliography": {
+        "author": "Junbin Zhang and Yingying Wang and Lina Qiu and Julia Rubin",
+        "title": "{Analyzing Android Taint Analysis Tools: FlowDroid, Amandroid, and DroidSafe}",
+        "journal": "IEEE Transactions on Software Engineering",
+        "year": "2022",
+        "pages": "4014--4040",
+        "volume": "48",
+        "number": "10",
+        "doi": "10.1109/TSE.2021.3109563",
+        "url": "https://doi.org/10.1109/TSE.2021.3109563"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1109%2FTSE.2021.3109563",
+          "http_status": 200,
+          "response_sha256": "bc870849f093cd658de6ae38a3da196c46cdeac235b35b15d0c12b9c2cf76d99"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:journals/infsof/LiBPRBOKT17",
+      "bibliography": {
+        "author": "Li Li and Tegawend{\\'{e}} F. Bissyand{\\'{e}} and Mike Papadakis and Siegfried Rasthofer and Alexandre Bartel and Damien Octeau and Jacques Klein and Yves {Le Traon}",
+        "title": "{Static analysis of android apps: A systematic literature review}",
+        "journal": "Information and Software Technology",
+        "year": "2017",
+        "pages": "67--95",
+        "volume": "88",
+        "doi": "10.1016/j.infsof.2017.04.001",
+        "url": "https://doi.org/10.1016/j.infsof.2017.04.001"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1016%2Fj.infsof.2017.04.001",
+          "http_status": 200,
+          "response_sha256": "9d93cefaf831010a1d34c0fc4b7ef75ffd9de3c01611a4b18bac61f4e52ba64c"
+        },
+        {
+          "source_kind": "fresh_DBLP_author_index",
+          "url": "https://dblp.org/pid/95/5206.html"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:journals/pacmpl/00020SN20",
+      "bibliography": {
+        "author": "Umar Farooq and Zhijia Zhao and Manu Sridharan and Iulian Neamtiu",
+        "title": "{LiveDroid: identifying and preserving mobile app state in volatile runtime environments}",
+        "journal": "Proceedings of the ACM on Programming Languages",
+        "year": "2020",
+        "pages": "160:1--160:30",
+        "volume": "4",
+        "number": "OOPSLA",
+        "doi": "10.1145/3428228",
+        "url": "https://doi.org/10.1145/3428228"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3428228",
+          "http_status": 200,
+          "response_sha256": "6fb9c33db1d2f7d79de5a1cbc5aa17f6be59901dc5d3a78ff16dbf9558e381dc"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/sigsoft/PanCLYWYZ20",
+      "bibliography": {
+        "author": "Linjie Pan and Baoquan Cui and Hao Liu and Jiwei Yan and Siqi Wang and Jun Yan and Jian Zhang",
+        "title": "{Static asynchronous component misuse detection for Android applications}",
+        "booktitle": "ESEC/FSE",
+        "year": "2020",
+        "pages": "952--963",
+        "doi": "10.1145/3368089.3409699",
+        "url": "https://doi.org/10.1145/3368089.3409699"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3368089.3409699",
+          "http_status": 200,
+          "response_sha256": "ec18360ec5363592be31e47f5b6e095dfc257e405c6b5aef2a5d219efe10d251"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:journals/tse/ZhuLCFWX24",
+      "bibliography": {
+        "author": "Jingyun Zhu and Kaixuan Li and Sen Chen and Lingling Fan and Junjie Wang and Xiaofei Xie",
+        "title": "{A Comprehensive Study on Static Application Security Testing (SAST) Tools for Android}",
+        "journal": "IEEE Transactions on Software Engineering",
+        "year": "2024",
+        "pages": "3385--3402",
+        "volume": "50",
+        "number": "12",
+        "doi": "10.1109/TSE.2024.3488041",
+        "url": "https://doi.org/10.1109/TSE.2024.3488041"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1109%2FTSE.2024.3488041"
+        },
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.1109%2FTSE.2024.3488041",
+          "http_status": 200,
+          "response_sha256": "d754e0c7703518efb12e2d9a8c1006152b2c2b7f0d2661a9aa7c1a95bba53d2a"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/uss/OcteauMJBBKT13",
+      "bibliography": {
+        "author": "Damien Octeau and Patrick D. McDaniel and Somesh Jha and Alexandre Bartel and Eric Bodden and Jacques Klein and Yves {Le Traon}",
+        "title": "{Effective Inter-Component Communication Mapping in Android: An Essential Step Towards Holistic Security Analysis}",
+        "booktitle": "USENIX Security Symposium",
+        "year": "2013",
+        "pages": "543--558",
+        "url": "https://dblp.org/rec/conf/uss/OcteauMJBBKT13"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "official_conference_page",
+          "url": "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/octeau"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/icse/OcteauLDJM15",
+      "bibliography": {
+        "author": "Damien Octeau and Daniel Luchaup and Matthew L. Dering and Somesh Jha and Patrick D. McDaniel",
+        "title": "{Composite Constant Propagation: Application to Android Inter-Component Communication Analysis}",
+        "booktitle": "ICSE",
+        "year": "2015",
+        "pages": "77--88",
+        "doi": "10.1109/ICSE.2015.30",
+        "url": "https://doi.org/10.1109/ICSE.2015.30"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1109%2FICSE.2015.30"
+        },
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.1109%2FICSE.2015.30",
+          "http_status": 200,
+          "response_sha256": "7de1983ecca508fccf69b7e6905493dc67c14576f8414dbff6d9189cec7a9d1a"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/icse/Samhi0DGHSABK22",
+      "bibliography": {
+        "author": "Jordan Samhi and Jun Gao and Nadia Daoudi and Pierre Graux and Henri Hoyez and Xiaoyu Sun and Kevin Allix and Tegawend{\\'{e}} F. Bissyand{\\'{e}} and Jacques Klein",
+        "title": "{JuCify: A Step Towards Android Code Unification for Enhanced Static Analysis}",
+        "booktitle": "ICSE",
+        "year": "2022",
+        "pages": "1232--1244",
+        "doi": "10.1145/3510003.3512766",
+        "url": "https://doi.org/10.1145/3510003.3512766"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3510003.3512766"
+        },
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3510003.3512766",
+          "http_status": 200,
+          "response_sha256": "1868fbe3d7111c074f9a6e13ce427dfb8ee8ec45e8ff47ef4a1374ee0626b15f"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/icse/0029BBKTARBOM15",
+      "bibliography": {
+        "author": "Li Li and Alexandre Bartel and Tegawend{\\'{e}} F. Bissyand{\\'{e}} and Jacques Klein and Yves {Le Traon} and Steven Arzt and Siegfried Rasthofer and Eric Bodden and Damien Octeau and Patrick D. McDaniel",
+        "title": "{IccTA: Detecting Inter-Component Privacy Leaks in Android Apps}",
+        "booktitle": "ICSE",
+        "year": "2015",
+        "pages": "280--291",
+        "doi": "10.1109/ICSE.2015.48",
+        "url": "https://doi.org/10.1109/ICSE.2015.48"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1109%2FICSE.2015.48",
+          "http_status": 200,
+          "response_sha256": "2b88fc4dcb334023e115765c5475054506df17aa9f855616b60b14d8b6781982"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/icse/SamhiBBK21",
+      "bibliography": {
+        "author": "Jordan Samhi and Alexandre Bartel and Tegawend{\\'{e}} F. Bissyand{\\'{e}} and Jacques Klein",
+        "title": "{RAICC: Revealing Atypical Inter-Component Communication in Android Apps}",
+        "booktitle": "ICSE",
+        "year": "2021",
+        "pages": "1398--1409",
+        "doi": "10.1109/ICSE43902.2021.00126",
+        "url": "https://doi.org/10.1109/ICSE43902.2021.00126"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1109%2FICSE43902.2021.00126",
+          "http_status": 200,
+          "response_sha256": "2b65626df9aabea9fe348bca24b74bc1634b26102438d4c0209cb699066edadf"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/kbse/YanZ0DY022",
+      "bibliography": {
+        "author": "Jiwei Yan and Shixin Zhang and Yepang Liu and Xi Deng and Jun Yan and Jian Zhang",
+        "title": "{A Comprehensive Evaluation of Android ICC Resolution Techniques}",
+        "booktitle": "ASE",
+        "year": "2022",
+        "pages": "1:1--1:13",
+        "doi": "10.1145/3551349.3560420",
+        "url": "https://doi.org/10.1145/3551349.3560420"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3551349.3560420",
+          "http_status": 200,
+          "response_sha256": "1bbab29dea6776818bb2f61b0702f72ac75a6eb50607c6fd09f3795fd5223873"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:journals/ase/YangWZWSYR18",
+      "bibliography": {
+        "author": "Shengqian Yang and Haowei Wu and Hailong Zhang and Yan Wang and Chandrasekar Swaminathan and Dacong Yan and Atanas Rountev",
+        "title": "{Static window transition graphs for Android}",
+        "journal": "Automated Software Engineering",
+        "year": "2018",
+        "pages": "833--873",
+        "volume": "25",
+        "number": "4",
+        "doi": "10.1007/s10515-018-0237-6",
+        "url": "https://doi.org/10.1007/s10515-018-0237-6"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1007%2Fs10515-018-0237-6",
+          "http_status": 200,
+          "response_sha256": "f8764f35ddb2f3ccc68f448641836ad1e67224c33103d0da30f24390412d688d"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:journals/tse/PerezL21",
+      "bibliography": {
+        "author": "Danilo Dominguez Perez and Wei Le",
+        "title": "{Specifying Callback Control Flow of Mobile Apps Using Finite Automata}",
+        "journal": "IEEE Transactions on Software Engineering",
+        "year": "2021",
+        "pages": "379--392",
+        "volume": "47",
+        "number": "2",
+        "doi": "10.1109/TSE.2019.2893207",
+        "url": "https://doi.org/10.1109/TSE.2019.2893207"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1109%2FTSE.2019.2893207",
+          "http_status": 200,
+          "response_sha256": "bd00de4160c4fd176690c77c5933667b30aeecfb3af8f6aafe4177152bf66afe"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/ecoop/ArztMN24",
+      "bibliography": {
+        "author": "Steven Arzt and Marc Miltenberger and Julius N{\\\"{a}}umann",
+        "title": "{Dynamically Generating Callback Summaries for Enhancing Static Analysis}",
+        "booktitle": "ECOOP",
+        "year": "2024",
+        "pages": "4:1--4:27",
+        "doi": "10.4230/LIPIcs.ECOOP.2024.4",
+        "url": "https://doi.org/10.4230/LIPIcs.ECOOP.2024.4"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.4230%2FLIPIcs.ECOOP.2024.4"
+        },
+        {
+          "source_kind": "datacite_publisher_metadata",
+          "url": "https://api.datacite.org/dois/10.4230%2FLIPIcs.ECOOP.2024.4",
+          "http_status": 200,
+          "response_sha256": "dcd05f7ed008121a996461f0dd092c889637bbda83adfeb3cfe8aa705ecf1cce"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/cascon/Vallee-RaiCGHLS99",
+      "bibliography": {
+        "author": "Raja Vall{\\'{e}}e-Rai and Phong Co and Etienne Gagnon and Laurie J. Hendren and Patrick Lam and Vijay Sundaresan",
+        "title": "{Soot - a Java bytecode optimization framework}",
+        "booktitle": "CASCON",
+        "year": "1999",
+        "pages": "13",
+        "url": "https://dblp.org/rec/conf/cascon/Vallee-RaiCGHLS99"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "fresh_DBLP_proceedings_index",
+          "url": "https://dblp.org/db/conf/cascon/cascon1999.html"
+        },
+        {
+          "source_kind": "fresh_DBLP_author_index",
+          "url": "https://dblp.org/pid/87/6598.html"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/cc/LhotakH03",
+      "bibliography": {
+        "author": "Ondrej Lhot{\\'{a}}k and Laurie J. Hendren",
+        "title": "{Scaling Java Points-to Analysis Using SPARK}",
+        "booktitle": "CC",
+        "year": "2003",
+        "pages": "153--169",
+        "doi": "10.1007/3-540-36579-6_12",
+        "url": "https://doi.org/10.1007/3-540-36579-6_12"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1007%2F3-540-36579-6_12",
+          "http_status": 200,
+          "response_sha256": "2d4752b5a8442116ea700887b4c808155c5eae5a4c3d5c9d40877dd7db3a1479"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/popl/RepsHS95",
+      "bibliography": {
+        "author": "Thomas W. Reps and Susan Horwitz and Shmuel Sagiv",
+        "title": "{Precise Interprocedural Dataflow Analysis via Graph Reachability}",
+        "booktitle": "POPL",
+        "year": "1995",
+        "pages": "49--61",
+        "doi": "10.1145/199448.199462",
+        "url": "https://doi.org/10.1145/199448.199462"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F199448.199462",
+          "http_status": 200,
+          "response_sha256": "c116d8b7b23f092e048a2bde1d540e613cfe08513199ed816790d4773aa27c21"
+        },
+        {
+          "source_kind": "fresh_DBLP_record",
+          "url": "https://dblp.org/rec/conf/popl/RepsHS95.html"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:journals/tcs/SagivRH96",
+      "bibliography": {
+        "author": "Shmuel Sagiv and Thomas W. Reps and Susan Horwitz",
+        "title": "{Precise Interprocedural Dataflow Analysis with Applications to Constant Propagation}",
+        "journal": "Theoretical Computer Science",
+        "year": "1996",
+        "pages": "131--170",
+        "volume": "167",
+        "number": "1--2",
+        "url": "https://dblp.org/rec/journals/tcs/SagivRH96"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.1016%2F0304-3975%2896%2900072-2",
+          "http_status": 200,
+          "response_sha256": "b079843443a3d48135ccd45c77fab32a1d151eaa56474776118bf53a35690386"
+        },
+        {
+          "source_kind": "fresh_DBLP_author_index",
+          "url": "https://dblp.org/pid/s/SSagiv.html"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/pldi/Bodden12a",
+      "bibliography": {
+        "author": "Eric Bodden",
+        "title": "{Inter-procedural data-flow analysis with IFDS/IDE and Soot}",
+        "booktitle": "SOAP@PLDI",
+        "year": "2012",
+        "pages": "3--8",
+        "doi": "10.1145/2259051.2259052",
+        "url": "https://doi.org/10.1145/2259051.2259052"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F2259051.2259052",
+          "http_status": 200,
+          "response_sha256": "32c6956bf8fe4d1d043420c8f6597f41b88401a0c1b24b182eae08eb7d205c95"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/ecoop/SpathDAB16",
+      "bibliography": {
+        "author": "Johannes Sp{\\\"{a}}th and Lisa {Nguyen Quang Do} and Karim Ali and Eric Bodden",
+        "title": "{Boomerang: Demand-Driven Flow- and Context-Sensitive Pointer Analysis for Java}",
+        "booktitle": "ECOOP",
+        "year": "2016",
+        "pages": "22:1--22:26",
+        "doi": "10.4230/LIPIcs.ECOOP.2016.22",
+        "url": "https://doi.org/10.4230/LIPIcs.ECOOP.2016.22"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.4230%2FLIPIcs.ECOOP.2016.22"
+        },
+        {
+          "source_kind": "datacite_publisher_metadata",
+          "url": "https://api.datacite.org/dois/10.4230%2FLIPIcs.ECOOP.2016.22",
+          "http_status": 200,
+          "response_sha256": "a71f1ce64588f96c96b8fd5f9eb7100ab70d3bdc29de520f7c763a999f0c54e4"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:journals/pacmpl/SpathAB19",
+      "bibliography": {
+        "author": "Johannes Sp{\\\"{a}}th and Karim Ali and Eric Bodden",
+        "title": "{Context-, flow-, and field-sensitive data-flow analysis using synchronized Pushdown systems}",
+        "journal": "Proceedings of the ACM on Programming Languages",
+        "year": "2019",
+        "pages": "48:1--48:29",
+        "volume": "3",
+        "number": "POPL",
+        "doi": "10.1145/3290361",
+        "url": "https://doi.org/10.1145/3290361"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3290361",
+          "http_status": 200,
+          "response_sha256": "bc8f26c4ab43e3747e5b0054e0f44649091eb039c3dc737bb4b1a51da3821329"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/pldi/BlackshearCS13",
+      "bibliography": {
+        "author": "Sam Blackshear and Bor-Yuh Evan Chang and Manu Sridharan",
+        "title": "{Thresher: precise refutations for heap reachability}",
+        "booktitle": "PLDI",
+        "year": "2013",
+        "pages": "275--286",
+        "url": "https://dblp.org/rec/conf/pldi/BlackshearCS13"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F2462156.2462186"
+        },
+        {
+          "source_kind": "author_publication_list",
+          "url": "https://plv.colorado.edu/bec/papers.html"
+        },
+        {
+          "source_kind": "fresh_DBLP_proceedings_index",
+          "url": "https://dblp.uni-trier.de/db/conf/pldi/pldi2013.html"
+        },
+        {
+          "source_kind": "author_paper_PDF",
+          "url": "https://plv.colorado.edu/bec/papers/thresher-pldi13.pdf"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/ccs/YangYZGNW13",
+      "bibliography": {
+        "author": "Zhemin Yang and Min Yang and Yuan Zhang and Guofei Gu and Peng Ning and Xiaoyang Sean Wang",
+        "title": "{AppIntent: analyzing sensitive data transmission in android for privacy leakage detection}",
+        "booktitle": "CCS",
+        "year": "2013",
+        "pages": "1043--1054",
+        "doi": "10.1145/2508859.2516676",
+        "url": "https://doi.org/10.1145/2508859.2516676"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F2508859.2516676",
+          "http_status": 200,
+          "response_sha256": "8a447a35d9950bf7bab9b3004616e368b974e20d5ecf8cfe0e4b6165accf8e12"
+        },
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F2508859.2516676",
+          "http_status": 200,
+          "response_sha256": "8a447a35d9950bf7bab9b3004616e368b974e20d5ecf8cfe0e4b6165accf8e12"
+        },
+        {
+          "source_kind": "fresh_DBLP_record",
+          "url": "https://dblp.org/rec/conf/ccs/YangYZGNW13.html"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/ecoop/DeanGC95",
+      "bibliography": {
+        "author": "Jeffrey Dean and David Grove and Craig Chambers",
+        "title": "{Optimization of Object-Oriented Programs Using Static Class Hierarchy Analysis}",
+        "booktitle": "ECOOP",
+        "year": "1995",
+        "pages": "77--101",
+        "doi": "10.1007/3-540-49538-X_5",
+        "url": "https://doi.org/10.1007/3-540-49538-X_5"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1007%2F3-540-49538-X_5",
+          "http_status": 200,
+          "response_sha256": "f3dd9b62bdb98cfe5d5d5f6e6323c89d7311a52320b7ab7fedecb8e9456cc621"
+        },
+        {
+          "source_kind": "official_Springer_proceedings",
+          "url": "https://link.springer.com/book/10.1007/3-540-49538-X"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/issta/0029BOK16",
+      "bibliography": {
+        "author": "Li Li and Tegawend{\\'{e}} F. Bissyand{\\'{e}} and Damien Octeau and Jacques Klein",
+        "title": "{DroidRA: taming reflection to support whole-program analysis of Android apps}",
+        "booktitle": "ISSTA",
+        "year": "2016",
+        "pages": "318--329",
+        "doi": "10.1145/2931037.2931044",
+        "url": "https://doi.org/10.1145/2931037.2931044"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F2931037.2931044",
+          "http_status": 200,
+          "response_sha256": "e19ac21dd9553ff8299181108637051f3ccc1962eb94dc72044dc74bf5de4c35"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/sigsoft/SuMCWYYPLS17",
+      "bibliography": {
+        "author": "Ting Su and Guozhu Meng and Yuting Chen and Ke Wu and Weiming Yang and Yao Yao and Geguang Pu and Yang Liu and Zhendong Su",
+        "title": "{Guided, stochastic model-based GUI testing of Android apps}",
+        "booktitle": "ESEC/FSE",
+        "year": "2017",
+        "pages": "245--256",
+        "doi": "10.1145/3106237.3106298",
+        "url": "https://doi.org/10.1145/3106237.3106298"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3106237.3106298",
+          "http_status": 200,
+          "response_sha256": "aecdc89888867576531276dbe98b423c3d1e3cca09d034310bac0d0cae69f2e1"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:journals/tr/KongLGLBK19",
+      "bibliography": {
+        "author": "Pingfan Kong and Li Li and Jun Gao and Kui Liu and Tegawend{\\'{e}} F. Bissyand{\\'{e}} and Jacques Klein",
+        "title": "{Automated Testing of Android Apps: A Systematic Literature Review}",
+        "journal": "IEEE Transactions on Reliability",
+        "year": "2019",
+        "pages": "45--66",
+        "volume": "68",
+        "number": "1",
+        "doi": "10.1109/TR.2018.2865733",
+        "url": "https://doi.org/10.1109/TR.2018.2865733"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1109%2FTR.2018.2865733",
+          "http_status": 200,
+          "response_sha256": "274e19bc486dfb160e714bc062dca060e6ea7cdecec246d67b5fa12673cefbf5"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/cc/WuYR16",
+      "bibliography": {
+        "author": "Haowei Wu and Shengqian Yang and Atanas Rountev",
+        "title": "{Static detection of energy defect patterns in Android applications}",
+        "booktitle": "CC",
+        "year": "2016",
+        "pages": "185--195",
+        "doi": "10.1145/2892208.2892218",
+        "url": "https://doi.org/10.1145/2892208.2892218"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F2892208.2892218",
+          "http_status": 200,
+          "response_sha256": "b60920ee79d9bad35723aaec1e55f5d1650d4ea3efc459a91d83373c7f868dae"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/eurosp/CalzavaraGM16",
+      "bibliography": {
+        "author": "Stefano Calzavara and Ilya Grishchenko and Matteo Maffei",
+        "title": "{HornDroid: Practical and Sound Static Analysis of Android Applications by SMT Solving}",
+        "booktitle": "EuroS\\&P",
+        "year": "2016",
+        "pages": "47--62",
+        "doi": "10.1109/EuroSP.2016.16",
+        "url": "https://doi.org/10.1109/EuroSP.2016.16"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1109%2FEuroSP.2016.16",
+          "http_status": 200,
+          "response_sha256": "09d76a33b476b9a0a2236c0339731e36036631b1e69529d82c80aa9019b135af"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/issta/SamhiJBEK24",
+      "bibliography": {
+        "author": "Jordan Samhi and Ren{\\'{e}} Just and Tegawend{\\'{e}} F. Bissyand{\\'{e}} and Michael D. Ernst and Jacques Klein",
+        "title": "{Call Graph Soundness in Android Static Analysis}",
+        "booktitle": "ISSTA",
+        "year": "2024",
+        "pages": "945--957",
+        "doi": "10.1145/3650212.3680333",
+        "url": "https://doi.org/10.1145/3650212.3680333"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3650212.3680333"
+        },
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3650212.3680333"
+        },
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.1145/3650212.3680333",
+          "http_status": 200,
+          "response_sha256": "4b40475471d9234906321ba3f327a427867a676c97202ee9eb91e24a7fe9acb5"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:conf/sigsoft/SamhiMAABK25",
+      "bibliography": {
+        "author": "Jordan Samhi and Marc Miltenberger and Marco Alecci and Steven Arzt and Tegawend{\\'{e}} F. Bissyand{\\'{e}} and Jacques Klein",
+        "title": "{Do you have 5 min? Improving Call Graph Analysis with Runtime Information}",
+        "booktitle": "FSE Companion",
+        "year": "2025",
+        "pages": "540--544",
+        "doi": "10.1145/3696630.3728495",
+        "url": "https://doi.org/10.1145/3696630.3728495"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3696630.3728495"
+        },
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3696630.3728495"
+        },
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.1145/3696630.3728495",
+          "http_status": 200,
+          "response_sha256": "d06e75170c6c9c8f877352950c20a7f95f1920118740b8336cf00ed985f4ef8a"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DBLP:journals/tosem/SamhiJEBK26",
+      "bibliography": {
+        "author": "Jordan Samhi and Ren{\\'{e}} Just and Michael D. Ernst and Tegawend{\\'{e}} F. Bissyand{\\'{e}} and Jacques Klein",
+        "title": "{Resolving Conditional Implicit Calls to Improve Static and Dynamic Analysis in Android Apps}",
+        "journal": "ACM Transactions on Software Engineering and Methodology",
+        "year": "2026",
+        "pages": "47:1--47:25",
+        "volume": "35",
+        "number": "2",
+        "doi": "10.1145/3729168",
+        "url": "https://doi.org/10.1145/3729168"
+      },
+      "status": "verified_real_scholarly_work",
+      "sources": [
+        {
+          "source_kind": "publisher_deposited_Crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3729168"
+        },
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.1145%2F3729168"
+        },
+        {
+          "source_kind": "crossref_publisher_metadata",
+          "url": "https://api.crossref.org/works/10.1145/3729168",
+          "http_status": 200,
+          "response_sha256": "4b90da3e3441752b5f9882af34e83c994fe290fedf8f707ae68e41d7f07461da"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "AndroidFragmentLifecycle",
+      "bibliography": {
+        "author": "{Android Developers}",
+        "title": "{Fragment lifecycle}",
+        "year": "2026",
+        "howpublished": "\\url{https://developer.android.com/guide/fragments/lifecycle}",
+        "note": "Accessed October 24, 2026"
+      },
+      "status": "verified_real_online_resource",
+      "sources": [
+        {
+          "source_kind": "official_Android_documentation",
+          "url": "https://developer.android.com/guide/fragments/lifecycle"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "AndroidFragmentTransactions",
+      "bibliography": {
+        "author": "{Android Developers}",
+        "title": "{Fragment transactions}",
+        "year": "2026",
+        "howpublished": "\\url{https://developer.android.com/guide/fragments/transactions}",
+        "note": "Accessed October 24, 2026"
+      },
+      "status": "verified_real_online_resource",
+      "sources": [
+        {
+          "source_kind": "official_Android_documentation",
+          "url": "https://developer.android.com/guide/fragments/transactions"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "DroidBench",
+      "bibliography": {
+        "author": "Christian Fritz and Steven Arzt and Siegfried Rasthofer",
+        "title": "{DroidBench: An Android Taint-Analysis Benchmark Suite}",
+        "year": "2026",
+        "howpublished": "\\url{https://github.com/secure-software-engineering/DroidBench}",
+        "note": "Accessed October 24, 2026"
+      },
+      "status": "verified_real_online_resource",
+      "sources": [
+        {
+          "source_kind": "official_project_repository",
+          "url": "https://github.com/secure-software-engineering/DroidBench"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "AndroidSecurityMay2022",
+      "bibliography": {
+        "author": "{Android Open Source Project}",
+        "title": "{Android Security Bulletin---May 2022}",
+        "year": "2022",
+        "howpublished": "\\url{https://source.android.com/docs/security/bulletin/2022-05-01}",
+        "note": "Published May 2, 2022; accessed October 27, 2026"
+      },
+      "status": "verified_real_online_resource",
+      "sources": [
+        {
+          "source_kind": "official_AOSP_bulletin",
+          "url": "https://source.android.com/docs/security/bulletin/2022-05-01"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "key": "AndroidCVE202220007Fix",
+      "bibliography": {
+        "author": "{Android Open Source Project}",
+        "title": "{Do not resume activity if behind a translucent task}",
+        "year": "2022",
+        "howpublished": "\\url{https://android.googlesource.com/platform/frameworks/base/+/9a1dfd9a9de3bb33cd81e3003251b49f7862f276}",
+        "note": "Commit 9a1dfd9a9de3bb33cd81e3003251b49f7862f276; fix for A-211481342 (CVE-2022-20007); accessed October 27, 2026"
+      },
+      "status": "verified_real_online_resource",
+      "sources": [
+        {
+          "source_kind": "official_AOSP_commit",
+          "url": "https://android.googlesource.com/platform/frameworks/base/+/9a1dfd9a9de3bb33cd81e3003251b49f7862f276"
+        }
+      ],
+      "required_corrections": []
+    }
+  ]
+}

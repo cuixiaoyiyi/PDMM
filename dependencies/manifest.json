@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "name": "DMMPP.jar",
+      "url": "https://raw.githubusercontent.com/cuixiaoyiyi/DMMPP/67585397c564a84295e3bd545b8e6b38438bfff8/DMMPP.jar",
+      "size": 22686061,
+      "sha256": "89152091f35c75795c2fdee17bf5ebfbdca60b5e7e79a6f789b3bc33f23cdea1"
+    },
+    {
+      "name": "Androlic_DMMPP.jar",
+      "url": "https://raw.githubusercontent.com/cuixiaoyiyi/DMMPP/67585397c564a84295e3bd545b8e6b38438bfff8/Androlic_DMMPP.jar",
+      "size": 23418133,
+      "sha256": "228c61d17b90d43d85da8d7084749efab32757735b94204a0508b473ef0d614e"
+    },
+    {
+      "name": "flowdroid-2.15.1.jar",
+      "url": "https://repo.maven.apache.org/maven2/de/fraunhofer/sit/sse/flowdroid/soot-infoflow-cmd/2.15.1/soot-infoflow-cmd-2.15.1-jar-with-dependencies.jar",
+      "size": 28177391,
+      "sha256": "51dadead47a173c494c2fa4855b1e8bd3b54e702a2c4b5ed58e60153009ae218"
+    }
+  ]
+}

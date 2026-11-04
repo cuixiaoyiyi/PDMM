@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "python": {
+    "minimum": "3.10",
+    "packages": [
+      "psutil"
+    ],
+    "note": "Saved-data analysis requires Python 3.10 or later; build/export helpers were checked with Python 3.13 and psutil 7.2.2."
+  },
+  "original_helper_files": {
+    "build_and_fragbench": [
+      "resource_monitor.py"
+    ],
+    "run_export": [
+      "resource_monitor.py",
+      "run_exports.py",
+      "run_static.py"
+    ],
+    "measured_export_extra": [
+      "run_exports_measured.py",
+      "gc_artifact_validation.py"
+    ],
+    "run_cost": [
+      "resource_monitor.py",
+      "run_static.py",
+      "gc_artifact_validation.py"
+    ]
+  },
+  "java": {
+    "gen8": {
+      "JDK": "8",
+      "jars": [
+        "DMMPP.jar",
+        "Androlic_DMMPP.jar"
+      ]
+    },
+    "taint_compile": {
+      "JDK": "17",
+      "jars": [
+        "flowdroid-2.15.1.jar"
+      ],
+      "accepted_jar_alias": "soot-infoflow-cmd-2.15.1-jar-with-dependencies.jar"
+    },
+    "gen8_export_runtime": [
+      "compiled Gen8 directory",
+      "DMMPP.jar"
+    ],
+    "measured_export_runtime_order": [
+      "compiled measured exporter + ExportGcProbe",
+      "compiled Gen8 directory",
+      "DMMPP.jar"
+    ],
+    "cost_runtime_order": [
+      "compiled cost-probe (Androlic8Measured, AndrolicGcProbe, ExportGcProbe)",
+      "compiled Gen8 directory",
+      "Androlic_DMMPP.jar"
+    ],
+    "cost_probe_build": "build.py --with-probes emits cost-probe as well as gen8-probe; pure source transformations match the archived builders"
+  },
+  "benchmark_build": {
+    "JDK": "17",
+    "tested_project_versions": {
+      "Gradle": "8.7",
+      "AGP": "8.5.0"
+    },
+    "requirements": [
+      "Android SDK",
+      "provided generated AndroidX Gradle project with cases.csv",
+      "access to pinned Maven dependencies or a supplied cache"
+    ],
+    "user_homes": "build_fragbench sets JVM user.home and ANDROID_USER_HOME below --output; SDK packages must be preinstalled, plugin SDK mutations are outside its write-location guarantee"
+  },
+  "scope": "Portable builders, a functional single-APK exporter, and a new single-APK serial five-configuration/five-repetition measured launcher. New measurements do not assert equivalence to the historical controlled-background500-run environment."
+}

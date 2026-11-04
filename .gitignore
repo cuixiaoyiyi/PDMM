@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+build/
+runs/
+reproduced/
+dependencies/jars/
+*.download
+*.keystore
+*.jks
+local.properties
+.env
+.env.*
+.gradle/
+.idea/
+*.class
+*.log

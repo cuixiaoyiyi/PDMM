@@ -1,0 +1,36 @@
+{
+  "scope": "Portable projections of saved and independently audited experiment records; no experiments run",
+  "missing_value": "Empty CSV field means missing/unknown, never zero. trusted_complete and score_eligible delimit usable records.",
+  "files": {
+    "gen8_instances.csv": {
+      "rows": 1830,
+      "size": 856683,
+      "sha256": "71f04e367efccbf90edf86d0bdd8fb481dd4bb1a9921d672d097ffd02a4aae95"
+    },
+    "gen8_components.csv.gz": {
+      "rows": 40110,
+      "size": 568614,
+      "sha256": "1635748ae2f354345adf18c7e8cd291e09a43f2c5d81f78a467accc66de7d526"
+    },
+    "taint_instances.csv": {
+      "rows": 1160,
+      "size": 476457,
+      "sha256": "39b004060545940fabbdf333fad6cac35c9f8fd2eb2c725fc9e06ed16fdcc68f"
+    },
+    "taint_flows.csv.gz": {
+      "rows": 1002,
+      "size": 40453,
+      "sha256": "bf04c1d7847bef383a4e9142d479bdeeb35bf4afd77d031b174342bde1cda025"
+    },
+    "cost_instances.csv": {
+      "rows": 500,
+      "size": 362627,
+      "sha256": "f9566947c90219a57025e84e6e2b9619283221b202579c208bfdcc207a5aafd8"
+    },
+    "dynamic_cases.csv": {
+      "rows": 36,
+      "size": 10203,
+      "sha256": "cb26c9fbd5f66cca3f28d47910b2e7f9e12686fa9378857f3ca9853b69ac941a"
+    }
+  }
+}

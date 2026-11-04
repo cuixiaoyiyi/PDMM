@@ -1,0 +1,4 @@
+app,leaks,time_s,heap_mb,status
+large:antennapod,-1,3.87,0.0,ERR:RuntimeException
+large:k9mail,-1,2.59,0.0,ERR:RuntimeException
+large:nextcloud,-1,0,0,CORRUPT

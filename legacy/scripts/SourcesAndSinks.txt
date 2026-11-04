@@ -1,0 +1,33 @@
+# Canonical DroidBench / FlowDroid sources and sinks (legacy txt format).
+# Sources: device-identifying / location / private data getters.
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()> -> _SOURCE_
+<android.telephony.TelephonyManager: java.lang.String getSubscriberId()> -> _SOURCE_
+<android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()> -> _SOURCE_
+<android.telephony.TelephonyManager: java.lang.String getLine1Number()> -> _SOURCE_
+<android.telephony.TelephonyManager: java.lang.String getImei()> -> _SOURCE_
+<android.location.Location: double getLatitude()> -> _SOURCE_
+<android.location.Location: double getLongitude()> -> _SOURCE_
+<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)> -> _SOURCE_
+<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)> -> _SOURCE_
+<android.accounts.AccountManager: android.accounts.Account[] getAccounts()> -> _SOURCE_
+<android.accounts.AccountManager: android.accounts.Account[] getAccountsByType(java.lang.String)> -> _SOURCE_
+<android.os.Bundle: java.lang.String getString(java.lang.String)> -> _SOURCE_
+<android.telephony.SmsMessage: java.lang.String getMessageBody()> -> _SOURCE_
+<android.telephony.SmsMessage: java.lang.String getOriginatingAddress()> -> _SOURCE_
+<android.content.Intent: java.lang.String getStringExtra(java.lang.String)> -> _SOURCE_
+<android.app.Activity: android.content.Intent getIntent()> -> _SOURCE_
+
+# Sinks: logging / network / SMS / IPC egress.
+<android.util.Log: int i(java.lang.String,java.lang.String)> -> _SINK_
+<android.util.Log: int e(java.lang.String,java.lang.String)> -> _SINK_
+<android.util.Log: int d(java.lang.String,java.lang.String)> -> _SINK_
+<android.util.Log: int v(java.lang.String,java.lang.String)> -> _SINK_
+<android.util.Log: int w(java.lang.String,java.lang.String)> -> _SINK_
+<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)> -> _SINK_
+<android.telephony.SmsManager: void sendMultipartTextMessage(java.lang.String,java.lang.String,java.util.ArrayList,java.util.ArrayList,java.util.ArrayList)> -> _SINK_
+<java.net.URL: java.net.URLConnection openConnection()> -> _SINK_
+<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)> -> _SINK_
+<android.content.Context: void startActivity(android.content.Intent)> -> _SINK_
+<android.content.Context: void sendBroadcast(android.content.Intent)> -> _SINK_
+<java.io.OutputStream: void write(byte[])> -> _SINK_
+<android.webkit.WebView: void loadUrl(java.lang.String)> -> _SINK_
