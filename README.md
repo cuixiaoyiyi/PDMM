@@ -47,10 +47,4 @@ Single-APK generation, serial cost measurements, and benchmark build instruction
 | `docs` | Reproduction instructions, result definitions, and verification records |
 | `legacy` | Earlier source and experiment artifacts retained from the repository |
 
-The current analysis reads `experiments/data`. Earlier material is documented in `legacy/README.md`.
-
-## Verification
-
-The November 4, 2026 checks reproduced the reported numerical results from saved experiment files and verified all 47 bibliography entries. The data checks cover 1,160 taint-analysis instances, 1,830 parameter-export instances, 500 cost measurements, and 36 dynamic benchmark cases. Details and remaining measurement limits are in [Verification](docs/VERIFICATION.md).
-
 Third-party source and dependency information is in [NOTICE](NOTICE.md).
